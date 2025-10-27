@@ -1,0 +1,32 @@
+[
+  {
+    "city": "石家庄市",
+    "total_population": 11235086,
+    "urban_population": 7453892,
+    "rural_population": 3781194,
+    "age_0_14": 1797614,
+    "age_15_64": 7689760,
+    "age_65_plus": 1747712,
+    "year": 2023
+  },
+  {
+    "city": "保定市",
+    "total_population": 9203265,
+    "urban_population": 5521959,
+    "rural_population": 3681306,
+    "age_0_14": 1656587,
+    "age_15_64": 6282091,
+    "age_65_plus": 1264587,
+    "year": 2023
+  },
+  {
+    "city": "唐山市",
+    "total_population": 7687284,
+    "urban_population": 5380499,
+    "rural_population": 2306785,
+    "age_0_14": 1229165,
+    "age_15_64": 5304443,
+    "age_65_plus": 1153676,
+    "year": 2023
+  }
+]

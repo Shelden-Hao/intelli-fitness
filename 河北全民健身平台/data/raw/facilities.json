@@ -1,0 +1,176 @@
+[
+  {
+    "id": 1,
+    "name": "石家庄市体育场",
+    "type": "综合体育场",
+    "city": "石家庄市",
+    "district": "长安区",
+    "address": "中山东路205号",
+    "area": 45000,
+    "capacity": 35000,
+    "open_hours": "06:00-22:00",
+    "facilities": [
+      "田径场",
+      "足球场",
+      "篮球场",
+      "健身房"
+    ],
+    "latitude": 38.0428,
+    "longitude": 114.5149,
+    "phone": "0311-86045678",
+    "is_free": false,
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "name": "裕华区全民健身中心",
+    "type": "健身中心",
+    "city": "石家庄市",
+    "district": "裕华区",
+    "address": "槐安东路136号",
+    "area": 12000,
+    "capacity": 2000,
+    "open_hours": "06:00-21:00",
+    "facilities": [
+      "健身房",
+      "游泳馆",
+      "羽毛球馆",
+      "乒乓球室"
+    ],
+    "latitude": 38.0246,
+    "longitude": 114.5313,
+    "phone": "0311-85866789",
+    "is_free": true,
+    "rating": 4.3
+  },
+  {
+    "id": 3,
+    "name": "石家庄市人民公园健身区",
+    "type": "公园健身区",
+    "city": "石家庄市",
+    "district": "新华区",
+    "address": "中山西路205号",
+    "area": 8000,
+    "capacity": 1000,
+    "open_hours": "全天开放",
+    "facilities": [
+      "健身器材",
+      "跑道",
+      "广场舞场地"
+    ],
+    "latitude": 38.0517,
+    "longitude": 114.4689,
+    "phone": "0311-87654321",
+    "is_free": true,
+    "rating": 4.2
+  },
+  {
+    "id": 4,
+    "name": "保定市体育中心",
+    "type": "综合体育中心",
+    "city": "保定市",
+    "district": "竞秀区",
+    "address": "朝阳南大街2666号",
+    "area": 52000,
+    "capacity": 40000,
+    "open_hours": "06:00-22:00",
+    "facilities": [
+      "体育场",
+      "游泳馆",
+      "网球场",
+      "篮球馆"
+    ],
+    "latitude": 38.8671,
+    "longitude": 115.4645,
+    "phone": "0312-5922345",
+    "is_free": false,
+    "rating": 4.6
+  },
+  {
+    "id": 5,
+    "name": "莲池区全民健身活动中心",
+    "type": "健身中心",
+    "city": "保定市",
+    "district": "莲池区",
+    "address": "五四东路518号",
+    "area": 15000,
+    "capacity": 2500,
+    "open_hours": "06:00-21:00",
+    "facilities": [
+      "健身房",
+      "羽毛球馆",
+      "乒乓球室",
+      "瑜伽室"
+    ],
+    "latitude": 38.8738,
+    "longitude": 115.4995,
+    "phone": "0312-3456789",
+    "is_free": true,
+    "rating": 4.4
+  },
+  {
+    "id": 6,
+    "name": "唐山市体育中心",
+    "type": "综合体育中心",
+    "city": "唐山市",
+    "district": "路南区",
+    "address": "新华西道88号",
+    "area": 48000,
+    "capacity": 38000,
+    "open_hours": "06:00-22:00",
+    "facilities": [
+      "体育场",
+      "游泳馆",
+      "篮球馆",
+      "羽毛球馆"
+    ],
+    "latitude": 39.6243,
+    "longitude": 118.1944,
+    "phone": "0315-2345678",
+    "is_free": false,
+    "rating": 4.5
+  },
+  {
+    "id": 7,
+    "name": "路北区全民健身公园",
+    "type": "健身公园",
+    "city": "唐山市",
+    "district": "路北区",
+    "address": "建设北路156号",
+    "area": 20000,
+    "capacity": 3000,
+    "open_hours": "全天开放",
+    "facilities": [
+      "健身步道",
+      "健身器材",
+      "篮球场",
+      "足球场"
+    ],
+    "latitude": 39.6358,
+    "longitude": 118.2003,
+    "phone": "0315-3456789",
+    "is_free": true,
+    "rating": 4.3
+  },
+  {
+    "id": 8,
+    "name": "唐山市游泳跳水馆",
+    "type": "游泳馆",
+    "city": "唐山市",
+    "district": "路南区",
+    "address": "学院路88号",
+    "area": 10000,
+    "capacity": 1500,
+    "open_hours": "06:00-21:00",
+    "facilities": [
+      "标准泳池",
+      "跳水池",
+      "儿童池"
+    ],
+    "latitude": 39.6189,
+    "longitude": 118.1856,
+    "phone": "0315-4567890",
+    "is_free": false,
+    "rating": 4.4
+  }
+]

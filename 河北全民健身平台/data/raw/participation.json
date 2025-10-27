@@ -1,0 +1,47 @@
+[
+  {
+    "city": "石家庄市",
+    "regular_participants": 4382000,
+    "participation_rate": 0.39,
+    "weekly_frequency": 3.5,
+    "avg_duration": 45,
+    "popular_activities": [
+      "健步走",
+      "广场舞",
+      "羽毛球",
+      "游泳",
+      "篮球"
+    ],
+    "year": 2023
+  },
+  {
+    "city": "保定市",
+    "regular_participants": 3521000,
+    "participation_rate": 0.383,
+    "weekly_frequency": 3.3,
+    "avg_duration": 42,
+    "popular_activities": [
+      "健步走",
+      "太极拳",
+      "广场舞",
+      "乒乓球",
+      "跑步"
+    ],
+    "year": 2023
+  },
+  {
+    "city": "唐山市",
+    "regular_participants": 2985000,
+    "participation_rate": 0.388,
+    "weekly_frequency": 3.4,
+    "avg_duration": 43,
+    "popular_activities": [
+      "健步走",
+      "广场舞",
+      "羽毛球",
+      "游泳",
+      "足球"
+    ],
+    "year": 2023
+  }
+]

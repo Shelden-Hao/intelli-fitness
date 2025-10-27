@@ -1,0 +1,148 @@
+version: '3.8'
+
+services:
+  # PostgreSQL数据库
+  postgres:
+    image: postgres:14-alpine
+    container_name: hebei-fitness-postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: hebei_fitness
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - hebei-fitness-network
+
+  # MongoDB数据库
+  mongodb:
+    image: mongo:6
+    container_name: hebei-fitness-mongodb
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: admin
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - hebei-fitness-network
+
+  # Neo4j图数据库
+  neo4j:
+    image: neo4j:5-community
+    container_name: hebei-fitness-neo4j
+    environment:
+      NEO4J_AUTH: neo4j/password
+      NEO4J_PLUGINS: '["apoc", "graph-data-science"]'
+      NEO4J_dbms_memory_heap_max__size: 2G
+    ports:
+      - "7474:7474"  # HTTP
+      - "7687:7687"  # Bolt
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+    networks:
+      - hebei-fitness-network
+
+  # Redis缓存
+  redis:
+    image: redis:7-alpine
+    container_name: hebei-fitness-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - hebei-fitness-network
+
+  # Elasticsearch搜索引擎
+  elasticsearch:
+    image: elasticsearch:8.11.0
+    container_name: hebei-fitness-elasticsearch
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    volumes:
+      - elasticsearch_data:/usr/share/elasticsearch/data
+    networks:
+      - hebei-fitness-network
+
+  # 后端API服务
+  backend:
+    build:
+      context: ../backend
+      dockerfile: ../docker/backend/Dockerfile
+    container_name: hebei-fitness-backend
+    environment:
+      - POSTGRES_SERVER=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=hebei_fitness
+      - MONGODB_URL=mongodb://admin:admin@mongodb:27017
+      - NEO4J_URI=bolt://neo4j:7687
+      - NEO4J_USER=neo4j
+      - NEO4J_PASSWORD=password
+      - REDIS_HOST=redis
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgres
+      - mongodb
+      - neo4j
+      - redis
+    volumes:
+      - ../backend:/app
+      - ../data:/app/data
+    networks:
+      - hebei-fitness-network
+    command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+
+  # 前端服务
+  frontend:
+    build:
+      context: ../frontend
+      dockerfile: ../docker/frontend/Dockerfile
+    container_name: hebei-fitness-frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ../frontend:/app
+      - /app/node_modules
+    networks:
+      - hebei-fitness-network
+    command: npm run dev -- --host
+
+  # Nginx反向代理
+  nginx:
+    image: nginx:alpine
+    container_name: hebei-fitness-nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/ssl:/etc/nginx/ssl
+    depends_on:
+      - backend
+      - frontend
+    networks:
+      - hebei-fitness-network
+
+volumes:
+  postgres_data:
+  mongodb_data:
+  neo4j_data:
+  neo4j_logs:
+  redis_data:
+  elasticsearch_data:
+
+networks:
+  hebei-fitness-network:
+    driver: bridge
