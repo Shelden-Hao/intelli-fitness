@@ -303,6 +303,11 @@ python3 scripts/init_real_data.py
 - `GET /api/v1/insights/latest` - 获取最新洞察
 - `POST /api/v1/insights/run-pipeline` - 运行数据流水线
 
+## 正在开发的功能模块
+
+1. 导入数据集，数据集识别提取，数据集转换为量化指标
+2. 构造知识图谱模块，以及相关脚本
+
 ---
 
 ## 📄 许可证

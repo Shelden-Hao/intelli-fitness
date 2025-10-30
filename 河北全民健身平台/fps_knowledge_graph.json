@@ -1,0 +1,7073 @@
+{
+  "metadata": {
+    "name": "河北省全民健身公共服务知识图谱",
+    "description": "基于LKDF框架构建的FPS领域知识图谱",
+    "created_at": "2025-10-30 14:45:09",
+    "dimensions": [
+      "时间(T)",
+      "区域(A)",
+      "政策法规(L)",
+      "指标(I)",
+      "个人(P)",
+      "设施(F)",
+      "运动项目(S)"
+    ]
+  },
+  "entities": {
+    "Time": {
+      "Year_1974": {
+        "year": 1974,
+        "type": "年份",
+        "decade": "1970年代"
+      },
+      "Year_1975": {
+        "year": 1975,
+        "type": "年份",
+        "decade": "1970年代"
+      },
+      "Year_1982": {
+        "year": 1982,
+        "type": "年份",
+        "decade": "1980年代"
+      },
+      "Year_1983": {
+        "year": 1983,
+        "type": "年份",
+        "decade": "1980年代"
+      },
+      "Year_1984": {
+        "year": 1984,
+        "type": "年份",
+        "decade": "1980年代"
+      },
+      "Year_1986": {
+        "year": 1986,
+        "type": "年份",
+        "decade": "1980年代"
+      },
+      "Year_1988": {
+        "year": 1988,
+        "type": "年份",
+        "decade": "1980年代"
+      },
+      "Year_1990": {
+        "year": 1990,
+        "type": "年份",
+        "decade": "1990年代"
+      },
+      "Year_1991": {
+        "year": 1991,
+        "type": "年份",
+        "decade": "1990年代"
+      },
+      "Year_1992": {
+        "year": 1992,
+        "type": "年份",
+        "decade": "1990年代"
+      },
+      "Year_1994": {
+        "year": 1994,
+        "type": "年份",
+        "decade": "1990年代"
+      },
+      "Year_1995": {
+        "year": 1995,
+        "type": "年份",
+        "decade": "1990年代"
+      },
+      "Year_1998": {
+        "year": 1998,
+        "type": "年份",
+        "decade": "1990年代"
+      },
+      "Year_1999": {
+        "year": 1999,
+        "type": "年份",
+        "decade": "1990年代"
+      },
+      "Year_2000": {
+        "year": 2000,
+        "type": "年份",
+        "decade": "2000年代"
+      },
+      "Year_2002": {
+        "year": 2002,
+        "type": "年份",
+        "decade": "2000年代"
+      },
+      "Year_2004": {
+        "year": 2004,
+        "type": "年份",
+        "decade": "2000年代"
+      },
+      "Year_2005": {
+        "year": 2005,
+        "type": "年份",
+        "decade": "2000年代"
+      },
+      "Year_2006": {
+        "year": 2006,
+        "type": "年份",
+        "decade": "2000年代"
+      },
+      "Year_2007": {
+        "year": 2007,
+        "type": "年份",
+        "decade": "2000年代"
+      },
+      "Year_2009": {
+        "year": 2009,
+        "type": "年份",
+        "decade": "2000年代"
+      },
+      "Year_2010": {
+        "year": 2010,
+        "type": "年份",
+        "decade": "2010年代"
+      },
+      "Year_2011": {
+        "year": 2011,
+        "type": "年份",
+        "decade": "2010年代"
+      },
+      "Year_2012": {
+        "year": 2012,
+        "type": "年份",
+        "decade": "2010年代"
+      },
+      "Year_2013": {
+        "year": 2013,
+        "type": "年份",
+        "decade": "2010年代"
+      },
+      "Year_2014": {
+        "year": 2014,
+        "type": "年份",
+        "decade": "2010年代"
+      },
+      "Year_2015": {
+        "year": 2015,
+        "type": "年份",
+        "decade": "2010年代"
+      },
+      "Year_2016": {
+        "year": 2016,
+        "type": "年份",
+        "decade": "2010年代"
+      },
+      "Year_2017": {
+        "year": 2017,
+        "type": "年份",
+        "decade": "2010年代"
+      },
+      "Year_2018": {
+        "year": 2018,
+        "type": "年份",
+        "decade": "2010年代"
+      },
+      "Year_2019": {
+        "year": 2019,
+        "type": "年份",
+        "decade": "2010年代"
+      },
+      "Year_2020": {
+        "year": 2020,
+        "type": "年份",
+        "decade": "2020年代"
+      },
+      "Year_2021": {
+        "year": 2021,
+        "type": "年份",
+        "decade": "2020年代"
+      },
+      "Year_2022": {
+        "year": 2022,
+        "type": "年份",
+        "decade": "2020年代"
+      },
+      "Year_2023": {
+        "year": 2023,
+        "type": "年份",
+        "decade": "2020年代"
+      },
+      "Year_2024": {
+        "year": 2024,
+        "type": "年份",
+        "decade": "2020年代"
+      },
+      "Period_1980s": {
+        "id": "Period_1980s",
+        "name": "1980年代",
+        "start": 1980,
+        "end": 1989
+      },
+      "Period_1990s": {
+        "id": "Period_1990s",
+        "name": "1990年代",
+        "start": 1990,
+        "end": 1999
+      },
+      "Period_2000s": {
+        "id": "Period_2000s",
+        "name": "2000年代",
+        "start": 2000,
+        "end": 2009
+      },
+      "Period_2010s": {
+        "id": "Period_2010s",
+        "name": "2010年代",
+        "start": 2010,
+        "end": 2019
+      },
+      "Period_2020s": {
+        "id": "Period_2020s",
+        "name": "2020年代",
+        "start": 2020,
+        "end": 2029
+      }
+    },
+    "Area": {
+      "Area_河北省": {
+        "name": "河北省",
+        "level": "省级",
+        "type": "行政区域"
+      },
+      "Area_张家口市": {
+        "name": "张家口市",
+        "level": "市级",
+        "province": "河北省",
+        "type": "行政区域"
+      },
+      "Area_邢台市": {
+        "name": "邢台市",
+        "level": "市级",
+        "province": "河北省",
+        "type": "行政区域"
+      },
+      "Area_沧州市": {
+        "name": "沧州市",
+        "level": "市级",
+        "province": "河北省",
+        "type": "行政区域"
+      },
+      "Area_衡水市": {
+        "name": "衡水市",
+        "level": "市级",
+        "province": "河北省",
+        "type": "行政区域"
+      },
+      "Area_保定市": {
+        "name": "保定市",
+        "level": "市级",
+        "province": "河北省",
+        "type": "行政区域"
+      },
+      "Area_邯郸市": {
+        "name": "邯郸市",
+        "level": "市级",
+        "province": "河北省",
+        "type": "行政区域"
+      },
+      "Area_廊坊市": {
+        "name": "廊坊市",
+        "level": "市级",
+        "province": "河北省",
+        "type": "行政区域"
+      },
+      "Area_承德市": {
+        "name": "承德市",
+        "level": "市级",
+        "province": "河北省",
+        "type": "行政区域"
+      },
+      "Area_秦皇岛市": {
+        "name": "秦皇岛市",
+        "level": "市级",
+        "province": "河北省",
+        "type": "行政区域"
+      },
+      "Area_石家庄市": {
+        "name": "石家庄市",
+        "level": "市级",
+        "province": "河北省",
+        "type": "行政区域"
+      },
+      "Area_唐山市": {
+        "name": "唐山市",
+        "level": "市级",
+        "province": "河北省",
+        "type": "行政区域"
+      },
+      "Area_-廊坊市": {
+        "name": "-廊坊市",
+        "level": "区县级",
+        "type": "行政区域"
+      },
+      "Area_-衡水市": {
+        "name": "-衡水市",
+        "level": "区县级",
+        "type": "行政区域"
+      },
+      "Area_-张家口市": {
+        "name": "-张家口市",
+        "level": "区县级",
+        "type": "行政区域"
+      },
+      "Area_-承德市": {
+        "name": "-承德市",
+        "level": "区县级",
+        "type": "行政区域"
+      },
+      "Area_-唐山市": {
+        "name": "-唐山市",
+        "level": "区县级",
+        "type": "行政区域"
+      },
+      "Area_-沧州市": {
+        "name": "-沧州市",
+        "level": "区县级",
+        "type": "行政区域"
+      },
+      "Area_-邢台市": {
+        "name": "-邢台市",
+        "level": "区县级",
+        "type": "行政区域"
+      },
+      "Area_-保定市": {
+        "name": "-保定市",
+        "level": "区县级",
+        "type": "行政区域"
+      },
+      "Area_-雄安新区": {
+        "name": "-雄安新区",
+        "level": "区县级",
+        "type": "行政区域"
+      },
+      "Area_-石家庄市": {
+        "name": "-石家庄市",
+        "level": "区县级",
+        "type": "行政区域"
+      },
+      "Area_-邯郸市": {
+        "name": "-邯郸市",
+        "level": "区县级",
+        "type": "行政区域"
+      },
+      "Area_-秦皇岛市": {
+        "name": "-秦皇岛市",
+        "level": "区县级",
+        "type": "行政区域"
+      }
+    },
+    "Law": {
+      "Law_全民健身计划": {
+        "id": "Law_全民健身计划",
+        "title": "全民健身计划（2021-2025年）",
+        "level": "国家级",
+        "department": "国务院",
+        "publish_year": 2021,
+        "type": "规划"
+      },
+      "Law_河北省全民健身条例": {
+        "id": "Law_河北省全民健身条例",
+        "title": "河北省全民健身条例",
+        "level": "省级",
+        "department": "河北省人大",
+        "publish_year": 2020,
+        "type": "法规"
+      },
+      "Law_体育场馆补助政策": {
+        "id": "Law_体育场馆补助政策",
+        "title": "公共体育场馆向社会免费或低收费开放补助资金管理办法",
+        "level": "国家级",
+        "department": "财政部、体育总局",
+        "publish_year": 2014,
+        "type": "管理办法"
+      }
+    },
+    "Indicator": {
+      "Indicator_场地面积": {
+        "id": "Indicator_场地面积",
+        "name": "场地面积",
+        "unit": "平方米",
+        "category": "设施指标"
+      },
+      "Indicator_建筑面积": {
+        "id": "Indicator_建筑面积",
+        "name": "建筑面积",
+        "unit": "平方米",
+        "category": "设施指标"
+      },
+      "Indicator_用地面积": {
+        "id": "Indicator_用地面积",
+        "name": "用地面积",
+        "unit": "平方米",
+        "category": "设施指标"
+      },
+      "Indicator_座位数": {
+        "id": "Indicator_座位数",
+        "name": "座位数",
+        "unit": "座",
+        "category": "设施指标"
+      },
+      "Indicator_日客流量": {
+        "id": "Indicator_日客流量",
+        "name": "日客流量",
+        "unit": "人次",
+        "category": "使用指标"
+      },
+      "Indicator_人均场地面积": {
+        "id": "Indicator_人均场地面积",
+        "name": "人均体育场地面积",
+        "unit": "平方米/人",
+        "category": "区域指标"
+      },
+      "Indicator_参与率": {
+        "id": "Indicator_参与率",
+        "name": "经常参加体育锻炼人数比例",
+        "unit": "%",
+        "category": "人口指标"
+      },
+      "Indicator_覆盖率": {
+        "id": "Indicator_覆盖率",
+        "name": "公共健身设施覆盖率",
+        "unit": "%",
+        "category": "区域指标"
+      },
+      "Indicator_设施密度": {
+        "id": "Indicator_设施密度",
+        "name": "每万人拥有体育设施数",
+        "unit": "个/万人",
+        "category": "区域指标"
+      },
+      "IndicatorValue_唐山市_人均场地面积": {
+        "indicator_type": "人均体育场地面积",
+        "value": 0.39,
+        "unit": "平方米/人",
+        "area": "唐山市",
+        "year": 2025
+      },
+      "IndicatorValue_石家庄市_人均场地面积": {
+        "indicator_type": "人均体育场地面积",
+        "value": 0.3,
+        "unit": "平方米/人",
+        "area": "石家庄市",
+        "year": 2025
+      },
+      "IndicatorValue_邢台市_人均场地面积": {
+        "indicator_type": "人均体育场地面积",
+        "value": 0.08,
+        "unit": "平方米/人",
+        "area": "邢台市",
+        "year": 2025
+      },
+      "IndicatorValue_张家口市_人均场地面积": {
+        "indicator_type": "人均体育场地面积",
+        "value": 0.1,
+        "unit": "平方米/人",
+        "area": "张家口市",
+        "year": 2025
+      },
+      "IndicatorValue_承德市_人均场地面积": {
+        "indicator_type": "人均体育场地面积",
+        "value": 0.2,
+        "unit": "平方米/人",
+        "area": "承德市",
+        "year": 2025
+      },
+      "IndicatorValue_沧州市_人均场地面积": {
+        "indicator_type": "人均体育场地面积",
+        "value": 0.11,
+        "unit": "平方米/人",
+        "area": "沧州市",
+        "year": 2025
+      },
+      "IndicatorValue_廊坊市_人均场地面积": {
+        "indicator_type": "人均体育场地面积",
+        "value": 0.21,
+        "unit": "平方米/人",
+        "area": "廊坊市",
+        "year": 2025
+      },
+      "IndicatorValue_保定市_人均场地面积": {
+        "indicator_type": "人均体育场地面积",
+        "value": 0.12,
+        "unit": "平方米/人",
+        "area": "保定市",
+        "year": 2025
+      },
+      "IndicatorValue_衡水市_人均场地面积": {
+        "indicator_type": "人均体育场地面积",
+        "value": 0.1,
+        "unit": "平方米/人",
+        "area": "衡水市",
+        "year": 2025
+      },
+      "IndicatorValue_邯郸市_人均场地面积": {
+        "indicator_type": "人均体育场地面积",
+        "value": 0.36,
+        "unit": "平方米/人",
+        "area": "邯郸市",
+        "year": 2025
+      },
+      "IndicatorValue_秦皇岛市_人均场地面积": {
+        "indicator_type": "人均体育场地面积",
+        "value": 0.07,
+        "unit": "平方米/人",
+        "area": "秦皇岛市",
+        "year": 2025
+      }
+    },
+    "Person": {},
+    "Facility": {
+      "Facility_1": {
+        "name": "滦州市体育场",
+        "type": "体育场",
+        "operator": "滦州市文化广电和旅游局",
+        "build_year": 1991,
+        "address": "地址：河北省唐山市滦县滦街道安康北路9号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/06/07/3638edbe-7bed-4543-b156-15df9e9864a1.jpg",
+        "building_area": 3500.0,
+        "site_area": 26800.0,
+        "land_area": 36800.0,
+        "seats": 448,
+        "daily_visitors": 4399,
+        "has_outdoor_fitness": false
+      },
+      "Facility_2": {
+        "name": "井陉县体育场",
+        "type": "体育场",
+        "operator": "井陉县体育场",
+        "build_year": 1986,
+        "address": "地址：河北省石家庄市井陉县微水乡乡镇河边西路28号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/js365/upload/20220628/81c9e8c69cea48dab03cfb0592c131ca.jpg",
+        "building_area": 534.0,
+        "site_area": 21000.0,
+        "land_area": 25303.0,
+        "seats": 5,
+        "daily_visitors": 3521,
+        "has_outdoor_fitness": false
+      },
+      "Facility_3": {
+        "name": "柏乡县体育场",
+        "type": "体育场",
+        "operator": "柏乡县教育文化广电体育和旅游局",
+        "build_year": 2018,
+        "address": "地址：河北省邢台市柏乡县柏乡镇迎宾路105号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/07/22/59780811-6e29-45d6-9f70-6936beb07774.jpg",
+        "building_area": 100.0,
+        "site_area": 22000.0,
+        "land_area": 22100.0,
+        "seats": 500,
+        "daily_visitors": 3192,
+        "has_outdoor_fitness": false
+      },
+      "Facility_4": {
+        "name": "下花园体育场",
+        "type": "体育场",
+        "operator": "下花园区教育和体育局",
+        "build_year": 2023,
+        "address": "地址：河北省张家口市下花园区城镇街道街道中学西街街2号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20240712/bef77d7af36d47969257b87730391967.jpg",
+        "building_area": 3000.0,
+        "site_area": 24000.0,
+        "land_area": 27000.0,
+        "seats": 6600,
+        "daily_visitors": 1493,
+        "has_outdoor_fitness": false
+      },
+      "Facility_5": {
+        "name": "河北体育馆",
+        "type": "体育馆",
+        "operator": "河北体育馆",
+        "build_year": 1984,
+        "address": "地址：河北省石家庄市长安区广安街道中山东路338号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/10/12/f5de89a3-a29d-44ca-8e62-677e82c5b6fe.jpg",
+        "building_area": 19963.0,
+        "site_area": 36440.6,
+        "land_area": 78946.2,
+        "seats": 10000,
+        "daily_visitors": 1326,
+        "has_outdoor_fitness": false
+      },
+      "Facility_6": {
+        "name": "丰宁满族自治县全民健身中心",
+        "type": "健身中心",
+        "operator": "丰宁满族自治县爱动健身服务有限公司",
+        "build_year": 2015,
+        "address": "地址：河北省承德市丰宁满族自治县大阁镇乡街道裕丰路丰宁体育中心号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/04/30/cf694f30-7b72-49b4-b370-07a326cccaab.jpg",
+        "building_area": 2950.0,
+        "site_area": 2360.0,
+        "land_area": 1300.0,
+        "seats": 0,
+        "daily_visitors": 1273,
+        "has_outdoor_fitness": false
+      },
+      "Facility_7": {
+        "name": "承德市体育局体育场",
+        "type": "体育场",
+        "operator": "承德市体育局体育场",
+        "build_year": 2005,
+        "address": "地址：河北省承德市双桥区银领社区新华路街道翠桥街19号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/js365/upload/20220621/aace2102d4d546f4ab3358bb0b852e9c.jpg",
+        "building_area": 2518.0,
+        "site_area": 28350.0,
+        "land_area": 44902.7,
+        "seats": 3000,
+        "daily_visitors": 1103,
+        "has_outdoor_fitness": false
+      },
+      "Facility_8": {
+        "name": "唐山市体育中心体育场",
+        "type": "体育场",
+        "operator": "唐山市体育中心",
+        "build_year": 2016,
+        "address": "地址：河北省唐山市路北区文化路街道建设南路92号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/js365/upload/20220624/0d5145ca8a954bbea10ea20ae644307d.jpg",
+        "building_area": 1500.0,
+        "site_area": 38500.0,
+        "land_area": 40000.0,
+        "seats": 5000,
+        "daily_visitors": 1043,
+        "has_outdoor_fitness": false
+      },
+      "Facility_9": {
+        "name": "宣化区体育场",
+        "type": "体育场",
+        "operator": "宣化区体育场",
+        "build_year": 1992,
+        "address": "地址：河北省张家口市宣化区南关街道桥北街15号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/07/22/88f22404-24b6-4b7e-a87f-e453e5849853.jpg",
+        "building_area": 28110.0,
+        "site_area": 33000.0,
+        "land_area": 40000.0,
+        "seats": 21500,
+        "daily_visitors": 1028,
+        "has_outdoor_fitness": false
+      },
+      "Facility_10": {
+        "name": "柏乡县体育馆",
+        "type": "体育馆",
+        "operator": "柏乡县教育文化广电体育和旅游局",
+        "build_year": 2015,
+        "address": "地址：河北省邢台市柏乡县柏乡镇迎宾路105号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/07/22/7e176604-2dd8-481d-8636-2d3032f67f42.jpg",
+        "building_area": 2200.0,
+        "site_area": 2200.0,
+        "land_area": 2500.0,
+        "seats": 408,
+        "daily_visitors": 1020,
+        "has_outdoor_fitness": false
+      },
+      "Facility_11": {
+        "name": "承德市奥林匹克体育中心体育场",
+        "type": "体育场",
+        "operator": "承德市奥林匹克体育中心",
+        "build_year": 2011,
+        "address": "地址：河北省承德市双桥区冯营子街道学院街1号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/07/23/ff06c55e-0d05-4671-8c8d-3e9755caf22e.png",
+        "building_area": 34700.0,
+        "site_area": 52200.0,
+        "land_area": 76000.0,
+        "seats": 20000,
+        "daily_visitors": 891,
+        "has_outdoor_fitness": false
+      },
+      "Facility_12": {
+        "name": "承德市全民健身活动中心",
+        "type": "健身中心",
+        "operator": "承德体育运动学校",
+        "build_year": 2000,
+        "address": "地址：河北省承德市双桥区牛圈子沟街道翠桥路19号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/06/03/6ef91f57-5c89-4318-8d2a-7b3c6467d9f3.jpg",
+        "building_area": 5996.38,
+        "site_area": 5996.38,
+        "land_area": 5400.0,
+        "seats": 0,
+        "daily_visitors": 834,
+        "has_outdoor_fitness": false
+      },
+      "Facility_13": {
+        "name": "唐山新体育中心游泳馆",
+        "type": "公共游泳(跳水)",
+        "operator": "唐山文旅体育场馆运营管理有限公司",
+        "build_year": 2019,
+        "address": "地址：河北省唐山市路南区梁家屯街道新岳道与卫国路交叉口路游泳馆号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20230626/26a1222836174cc7a68f83acf4497d03.jpg",
+        "building_area": 19500.0,
+        "site_area": 21384.85,
+        "land_area": 26168.0,
+        "seats": 2183,
+        "daily_visitors": 807,
+        "has_outdoor_fitness": false
+      },
+      "Facility_14": {
+        "name": "石家庄市新华区文体中心体育综合馆",
+        "type": "体育馆",
+        "operator": "新华区文体和旅游局",
+        "build_year": 2012,
+        "address": "地址：河北省石家庄市新华区北苑街道钟旺路15号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/js365/upload/20220620/13117c9a27f940fb9095307d386a8be6.jpg",
+        "building_area": 1900.0,
+        "site_area": 1900.0,
+        "land_area": 1900.0,
+        "seats": 560,
+        "daily_visitors": 737,
+        "has_outdoor_fitness": false
+      },
+      "Facility_15": {
+        "name": "孟村县全民健身馆",
+        "type": "健身中心",
+        "operator": "孟村回族自治县文体广电和旅游局",
+        "build_year": 2013,
+        "address": "地址：河北省沧州市孟村回族自治县孟村乡镇朝阳大街8号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/04/30/6ceb08dc-e655-4f69-9b0d-9302a0db9fec.jpg",
+        "building_area": 3600.0,
+        "site_area": 3000.0,
+        "land_area": 19980.0,
+        "seats": 0,
+        "daily_visitors": 702,
+        "has_outdoor_fitness": false
+      },
+      "Facility_16": {
+        "name": "河北奥体中心主体育场",
+        "type": "体育场",
+        "operator": "河北奥林匹克体育中心",
+        "build_year": 2017,
+        "address": "地址：河北省石家庄市正定县诸福屯乡镇恒阳路路62号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/js365/upload/20220729/389e37221f8f4c95bca92583a0d2935e.png",
+        "building_area": 119000.0,
+        "site_area": 79880.0,
+        "land_area": 230000.0,
+        "seats": 56000,
+        "daily_visitors": 670,
+        "has_outdoor_fitness": false
+      },
+      "Facility_17": {
+        "name": "固安县市民活动中心（游泳馆、体育馆、全民健身中心）",
+        "type": "健身中心",
+        "operator": "绿茵天地场馆经营管理（固安）有限公司",
+        "build_year": 2014,
+        "address": "地址：河北省廊坊市固安县亚新科路南侧街道城南106国道东侧路京九铁路西侧号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/07/20/99b585ce-bdee-43c3-b4f8-15e69432f5c4.jpg",
+        "building_area": 17835.0,
+        "site_area": 11151.0,
+        "land_area": 19511.0,
+        "seats": 0,
+        "daily_visitors": 664,
+        "has_outdoor_fitness": false
+      },
+      "Facility_18": {
+        "name": "石家庄市鹿泉区体育场",
+        "type": "体育场",
+        "operator": "石家庄市鹿泉区体育场",
+        "build_year": 1995,
+        "address": "地址：河北省石家庄市鹿泉区获鹿镇乡镇向阳大街街213号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/07/27/9068d57c-f87f-4a21-9917-9af6ea0de6cd.jpg",
+        "building_area": 5015.0,
+        "site_area": 15600.0,
+        "land_area": 29683.22,
+        "seats": 1400,
+        "daily_visitors": 608,
+        "has_outdoor_fitness": false
+      },
+      "Facility_19": {
+        "name": "唐山九江体育中心体育场",
+        "type": "体育场",
+        "operator": "唐山九江体育中心",
+        "build_year": 2012,
+        "address": "地址：河北省唐山市迁安市永顺街道惠兴大街街999号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/07/20/fef3ac9a-459d-4e10-9ad8-c87805ba42b5.jpg",
+        "building_area": 25889.0,
+        "site_area": 77593.5,
+        "land_area": 84000.0,
+        "seats": 22775,
+        "daily_visitors": 461,
+        "has_outdoor_fitness": false
+      },
+      "Facility_20": {
+        "name": "石家庄全民健身中心",
+        "type": "健身中心",
+        "operator": "石家庄市游泳业余体育学校",
+        "build_year": 2018,
+        "address": "地址：河北省石家庄市长安区育才街道体育北大街街115号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/10/14/f676f6f9-78a2-468b-b50b-6a17d66560a6.jpg",
+        "building_area": 30816.0,
+        "site_area": 9725.0,
+        "land_area": 15461.0,
+        "seats": 0,
+        "daily_visitors": 453,
+        "has_outdoor_fitness": false
+      },
+      "Facility_21": {
+        "name": "曲阳县惠民运动中心游泳馆",
+        "type": "公共游泳(跳水)",
+        "operator": "曲阳恒泰体育发展有限公司",
+        "build_year": 2022,
+        "address": "地址：河北省保定市曲阳县恒州镇街道恒阳街54号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20240720/c53616e1148a46f28b333ed81f211e1d.jpg",
+        "building_area": 3319.16,
+        "site_area": 2647.07,
+        "land_area": 3133.33,
+        "seats": 300,
+        "daily_visitors": 663,
+        "has_outdoor_fitness": false
+      },
+      "Facility_22": {
+        "name": "曲阳县惠民运动中心体育馆",
+        "type": "健身中心",
+        "operator": "曲阳恒泰体育发展有限公司",
+        "build_year": 2022,
+        "address": "地址：河北省保定市曲阳县恒州镇街道恒阳街54号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20240720/d27ded2cfee44ebc864ed32e1e38f394.jpg",
+        "building_area": 6638.32,
+        "site_area": 3240.76,
+        "land_area": 3000.0,
+        "seats": 0,
+        "daily_visitors": 666,
+        "has_outdoor_fitness": false
+      },
+      "Facility_23": {
+        "name": "唐山市体育中心体育馆",
+        "type": "体育馆",
+        "operator": "唐山市体育中心",
+        "build_year": 1984,
+        "address": "地址：河北省唐山市路北区文化路街道建设南路92号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/07/27/f658130b-cded-4f38-98c7-2692c2151637.jpg",
+        "building_area": 6834.0,
+        "site_area": 4200.0,
+        "land_area": 18590.0,
+        "seats": 3750,
+        "daily_visitors": 182,
+        "has_outdoor_fitness": false
+      },
+      "Facility_24": {
+        "name": "保定市第一重点业余体校乒乓球馆",
+        "type": "体育馆",
+        "operator": "保定市第一重点业余体校",
+        "build_year": 1992,
+        "address": "地址：河北省保定市莲池区公园街街道公园街街46号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20240731/9b3dda937c0b44cfabbd704458cfa21a.jpg",
+        "building_area": 1900.0,
+        "site_area": 1800.0,
+        "land_area": 700.0,
+        "seats": 100,
+        "daily_visitors": 623,
+        "has_outdoor_fitness": false
+      },
+      "Facility_25": {
+        "name": "石家庄全民健身中心",
+        "type": "健身中心",
+        "operator": "石家庄市游泳业余体育学校",
+        "build_year": 2018,
+        "address": "地址：河北省石家庄市长安区育才街道体育北大街街115号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/10/14/f676f6f9-78a2-468b-b50b-6a17d66560a6.jpg",
+        "building_area": 30816.0,
+        "site_area": 9725.0,
+        "land_area": 15461.0,
+        "seats": 0,
+        "daily_visitors": 571,
+        "has_outdoor_fitness": false
+      },
+      "Facility_26": {
+        "name": "唐山新体育中心体育馆",
+        "type": "体育馆",
+        "operator": "唐山文旅体育场馆运营管理有限公司",
+        "build_year": 2019,
+        "address": "地址：河北省唐山市路南区梁家屯街道新岳道与卫国南路交汇处西南侧街新岳道与卫国南路交汇处西南侧号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20230614/732719965e864f5ab9daa3bcd1f52dad.jpg",
+        "building_area": 26400.0,
+        "site_area": 27821.41,
+        "land_area": 36682.0,
+        "seats": 6051,
+        "daily_visitors": 534,
+        "has_outdoor_fitness": false
+      },
+      "Facility_27": {
+        "name": "文安县体育场",
+        "type": "体育场",
+        "operator": "文安县教育和体育局",
+        "build_year": 2016,
+        "address": "地址：河北省廊坊市文安县文安县街道政通道街194号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/05/07/50c32bad-91c0-495a-b136-df189336719a.jpg",
+        "building_area": 292.0,
+        "site_area": 20258.0,
+        "land_area": 28000.0,
+        "seats": 500,
+        "daily_visitors": 475,
+        "has_outdoor_fitness": false
+      },
+      "Facility_28": {
+        "name": "栾城区体育馆",
+        "type": "体育馆",
+        "operator": "石家庄市栾城区体育运动管理中心",
+        "build_year": 1999,
+        "address": "地址：河北省石家庄市栾城区栾城镇街道惠源路39号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/js365/upload/20220714/d019cb5abda14242bfa92345e200bfd8.png",
+        "building_area": 5000.0,
+        "site_area": 5500.0,
+        "land_area": 8000.0,
+        "seats": 200,
+        "daily_visitors": 416,
+        "has_outdoor_fitness": false
+      },
+      "Facility_29": {
+        "name": "承德市奥林游泳馆",
+        "type": "公共游泳(跳水)",
+        "operator": "承德市奥林游泳馆",
+        "build_year": 1998,
+        "address": "地址：河北省承德市双桥区中华路街道武烈路3号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/js365/upload/20220715/ef472ea1f48541fd915fb2d44a86f882.jpg",
+        "building_area": 2185.92,
+        "site_area": 3164.05,
+        "land_area": 8224.3,
+        "seats": 200,
+        "daily_visitors": 456,
+        "has_outdoor_fitness": false
+      },
+      "Facility_30": {
+        "name": "故城县健身中心比赛馆",
+        "type": "体育馆",
+        "operator": "故城昊洁企业管理有限公司",
+        "build_year": 2023,
+        "address": "地址：河北省衡水市故城县尚书房街道光明街东街11号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20240715/882622bccf324977acf7f9104caac600.jpg",
+        "building_area": 20955.61,
+        "site_area": 12160.06,
+        "land_area": 21499.0,
+        "seats": 3300,
+        "daily_visitors": 376,
+        "has_outdoor_fitness": false
+      },
+      "Facility_31": {
+        "name": "石家庄市网球推广训练中心",
+        "type": "健身中心",
+        "operator": "石家庄勇石体育发展有限责任公司",
+        "build_year": 2023,
+        "address": "地址：河北省石家庄市裕华区方村街道体育公园街街128号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20230626/295ec3522183485c828b2efd6692ec07.jpg",
+        "building_area": 16573.02,
+        "site_area": 9362.0,
+        "land_area": 19791.0,
+        "seats": 0,
+        "daily_visitors": 349,
+        "has_outdoor_fitness": false
+      },
+      "Facility_32": {
+        "name": "栾城区全民健身中心",
+        "type": "健身中心",
+        "operator": "石家庄市栾城区体育运动管理中心",
+        "build_year": 2018,
+        "address": "地址：河北省石家庄市栾城区栾城镇街道太行南大街街10号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/js365/upload/20220715/28f70526836d4326a949b0c8f38473d3.jpg",
+        "building_area": 2000.0,
+        "site_area": 5600.0,
+        "land_area": 6000.0,
+        "seats": 0,
+        "daily_visitors": 327,
+        "has_outdoor_fitness": false
+      },
+      "Facility_33": {
+        "name": "邯郸市体育馆",
+        "type": "体育馆",
+        "operator": "邯郸市体育中心",
+        "build_year": 1975,
+        "address": "地址：河北省邯郸市邯山区陵园路街道陵园街86号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/07/21/944e24a5-24f8-4427-bf9e-a2c6342591b9.jpg",
+        "building_area": 9689.0,
+        "site_area": 9250.0,
+        "land_area": 14200.0,
+        "seats": 3000,
+        "daily_visitors": 373,
+        "has_outdoor_fitness": false
+      },
+      "Facility_34": {
+        "name": "徐水区体育场",
+        "type": "体育场",
+        "operator": "徐水区教育和体育局",
+        "build_year": 1990,
+        "address": "地址：河北省保定市徐水区安肃镇乡乡镇振兴中路66号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/05/17/4c895588-ff48-44ab-b859-c414960006b1.jpg",
+        "building_area": 2000.0,
+        "site_area": 25000.0,
+        "land_area": 30000.0,
+        "seats": 2000,
+        "daily_visitors": 306,
+        "has_outdoor_fitness": false
+      },
+      "Facility_35": {
+        "name": "北戴河区体育馆",
+        "type": "体育馆",
+        "operator": "北戴河区教体局",
+        "build_year": 2023,
+        "address": "地址：河北省秦皇岛市北戴河区戴河镇街道戴河大街街6号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20240726/c9c0f9f125a0478c8600fef0f996d8e4.jpg",
+        "building_area": 18742.0,
+        "site_area": 4000.0,
+        "land_area": 49404.58,
+        "seats": 1616,
+        "daily_visitors": 270,
+        "has_outdoor_fitness": false
+      },
+      "Facility_36": {
+        "name": "长安区文化体育活动中心",
+        "type": "健身中心",
+        "operator": "河北健达体育文化发展有限公司",
+        "build_year": 2023,
+        "address": "地址：河北省石家庄市长安区高营乡镇高营大街街14号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20230626/94fd833abf0743a297eae351ed6dd4e6.jpg",
+        "building_area": 10564.0,
+        "site_area": 1900.0,
+        "land_area": 6684.0,
+        "seats": 0,
+        "daily_visitors": 295,
+        "has_outdoor_fitness": false
+      },
+      "Facility_37": {
+        "name": "衡水市奥林匹克体育中心体育场",
+        "type": "体育场",
+        "operator": "衡水奥体项目管理有限公司",
+        "build_year": 2019,
+        "address": "地址：河北省衡水市桃城区河东街道南环东路66号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/07/21/72fa81cb-88f4-4336-9aa3-c4d6e64fdd38.jpg",
+        "building_area": 38355.0,
+        "site_area": 34000.0,
+        "land_area": 225917.0,
+        "seats": 30000,
+        "daily_visitors": 301,
+        "has_outdoor_fitness": false
+      },
+      "Facility_38": {
+        "name": "阜城县全民健身中心体育馆",
+        "type": "体育馆",
+        "operator": "阜城县教育局（体育局）",
+        "build_year": 2021,
+        "address": "地址：河北省衡水市阜城县阜城乡镇阜康路106号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/05/09/8fb92999-2328-4d69-a648-dcab215bc003.jpg",
+        "building_area": 16666.0,
+        "site_area": 1500.0,
+        "land_area": 10000.0,
+        "seats": 4000,
+        "daily_visitors": 245,
+        "has_outdoor_fitness": false
+      },
+      "Facility_39": {
+        "name": "河间市体育场",
+        "type": "体育场",
+        "operator": "河间市教育体育局",
+        "build_year": 2006,
+        "address": "地址：河北省沧州市河间市瀛州路街道团结大街50号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/06/10/f0c05807-a4c4-4046-a159-8d82f82a1af4.jpg",
+        "building_area": 46808.0,
+        "site_area": 45300.0,
+        "land_area": 55300.0,
+        "seats": 10000,
+        "daily_visitors": 349,
+        "has_outdoor_fitness": false
+      },
+      "Facility_40": {
+        "name": "滦州市综合训练馆",
+        "type": "体育馆",
+        "operator": "滦州市文化广电和旅游局",
+        "build_year": 1991,
+        "address": "地址：河北省唐山市滦州市滦河街道安康北路9号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "",
+        "building_area": 900.0,
+        "site_area": 900.0,
+        "land_area": 1100.0,
+        "seats": 50,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_41": {
+        "name": "北戴河区体育场",
+        "type": "体育场",
+        "operator": "北戴河区教体局",
+        "build_year": 2005,
+        "address": "地址：河北省秦皇岛市北戴河区东山街道东山社区街1门牌",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20240731/1b8af84fb9254703978e9d91c70d0847.jpg",
+        "building_area": 22400.0,
+        "site_area": 37850.0,
+        "land_area": 173160.0,
+        "seats": 1000,
+        "daily_visitors": 229,
+        "has_outdoor_fitness": false
+      },
+      "Facility_42": {
+        "name": "邱县体育场",
+        "type": "体育场",
+        "operator": "邱县新阳物业服务有限公司",
+        "build_year": 2023,
+        "address": "地址：河北省邯郸市邱县新马头镇乡镇世纪大街街路东号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20230616/5578e728f5c64c8ea2c222cfa7d94495.jpg",
+        "building_area": 2722.0,
+        "site_area": 31000.0,
+        "land_area": 31000.0,
+        "seats": 2500,
+        "daily_visitors": 174,
+        "has_outdoor_fitness": false
+      },
+      "Facility_43": {
+        "name": "卢龙县体育馆",
+        "type": "体育馆",
+        "operator": "卢龙县教育和体育局",
+        "build_year": 2011,
+        "address": "地址：河北省秦皇岛市卢龙县卢龙镇乡镇永平大街街116号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "",
+        "building_area": 8678.0,
+        "site_area": 4500.0,
+        "land_area": 15917.0,
+        "seats": 1374,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_44": {
+        "name": "涉县体育场",
+        "type": "体育场",
+        "operator": "涉县青少年活动中心",
+        "build_year": 2012,
+        "address": "地址：河北省邯郸市涉县平安街道龙山大街街592号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/07/23/673b7310-5ed9-478f-8847-79aa288b3524.jpg",
+        "building_area": 10090.0,
+        "site_area": 28000.0,
+        "land_area": 46666.67,
+        "seats": 12012,
+        "daily_visitors": 165,
+        "has_outdoor_fitness": false
+      },
+      "Facility_45": {
+        "name": "邯郸市体育运动学校滑冰馆",
+        "type": "体育馆",
+        "operator": "邯郸市体育运动学校",
+        "build_year": 2022,
+        "address": "地址：河北省邯郸市丛台区黄粱梦镇乡镇107国道东侧街04-01-75-1号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20230712/598d0fbeee9941b1962481636dbae067.jpg",
+        "building_area": 18006.0,
+        "site_area": 18006.0,
+        "land_area": 21148.5,
+        "seats": 200,
+        "daily_visitors": 162,
+        "has_outdoor_fitness": false
+      },
+      "Facility_46": {
+        "name": "唐山高新区滑冰馆",
+        "type": "体育馆",
+        "operator": "河北瑞翔体育文化发展有限公司",
+        "build_year": 2022,
+        "address": "地址：河北省唐山市高新区庆北街道学院街1707号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20230616/65459a5ea6c3453ca053bfc5e8a067f4.jpg",
+        "building_area": 10420.0,
+        "site_area": 30420.0,
+        "land_area": 28000.0,
+        "seats": 1310,
+        "daily_visitors": 162,
+        "has_outdoor_fitness": false
+      },
+      "Facility_47": {
+        "name": "康保县公共体育场",
+        "type": "体育场",
+        "operator": "康保县教育和体育局",
+        "build_year": 2022,
+        "address": "地址：河北省张家口市康保县建设大街街道建设大街街18号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20230626/966fdf32d773435698a1fffdae778d85.jpeg",
+        "building_area": 5400.0,
+        "site_area": 20385.2,
+        "land_area": 32424.0,
+        "seats": 1030,
+        "daily_visitors": 151,
+        "has_outdoor_fitness": false
+      },
+      "Facility_48": {
+        "name": "涉县滑冰馆",
+        "type": "体育馆",
+        "operator": "涉县教育体育局",
+        "build_year": 2020,
+        "address": "地址：河北省邯郸市涉县平安街道龙山大街街535号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/07/23/84dcd8f4-b884-41d7-9cae-874c722c4199.jpg",
+        "building_area": 412.0,
+        "site_area": 310.0,
+        "land_area": 412.0,
+        "seats": 20,
+        "daily_visitors": 151,
+        "has_outdoor_fitness": false
+      },
+      "Facility_49": {
+        "name": "怀安县乒羽球馆",
+        "type": "",
+        "operator": "怀安县教育体育和科学技术局",
+        "build_year": 1992,
+        "address": "地址：河北省张家口市怀安县柴沟堡乡镇生产街13号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/10/14/c7851e4a-4b77-4260-99bb-33f741ace354.jpg",
+        "building_area": 1060.0,
+        "site_area": 820.0,
+        "land_area": 1230.0,
+        "seats": 150,
+        "daily_visitors": 148,
+        "has_outdoor_fitness": false
+      },
+      "Facility_50": {
+        "name": "东光县体育场",
+        "type": "体育场",
+        "operator": "东光县文体广电和旅游局",
+        "build_year": 2019,
+        "address": "地址：河北省沧州市东光县东光镇乡镇建设大街街无号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/06/09/71e69012-b94b-4316-87a5-39be3a8e4969.png",
+        "building_area": 16000.0,
+        "site_area": 25400.0,
+        "land_area": 25400.0,
+        "seats": 300,
+        "daily_visitors": 222,
+        "has_outdoor_fitness": false
+      },
+      "Facility_51": {
+        "name": "张家口市宣化区全民健身中心",
+        "type": "健身中心",
+        "operator": "张家口健奥文化体育场发展有限公司",
+        "build_year": 2011,
+        "address": "地址：河北省张家口市宣化区南关街道西关门外巷街66号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/04/30/e402d2ec-9ded-48e7-8881-8d51eda88519.jpg",
+        "building_area": 3458.0,
+        "site_area": 3458.0,
+        "land_area": 4342.0,
+        "seats": 0,
+        "daily_visitors": 136,
+        "has_outdoor_fitness": false
+      },
+      "Facility_52": {
+        "name": "赞皇县全民健身中心",
+        "type": "健身中心",
+        "operator": "赞皇县文化广电体育和旅游局",
+        "build_year": 2017,
+        "address": "地址：河北省石家庄市赞皇县西龙门乡镇布古庄村二中南邻null号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/05/13/46665371-30b6-45d7-b98a-9db1f0bd83cf.png",
+        "building_area": 4200.0,
+        "site_area": 8000.0,
+        "land_area": 12000.0,
+        "seats": 0,
+        "daily_visitors": 132,
+        "has_outdoor_fitness": false
+      },
+      "Facility_53": {
+        "name": "容东悦动运动健康中心",
+        "type": "健身中心",
+        "operator": "河北雄安乐动健康科技有限公司",
+        "build_year": 2021,
+        "address": "地址：河北省雄安新区雄安新区八于乡乡镇八于街街137-1号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20230629/e6107fc0401c48cf8eecfb80d168a9c9.jpg",
+        "building_area": 24417.89,
+        "site_area": 2154.0,
+        "land_area": 7187.0,
+        "seats": 0,
+        "daily_visitors": 127,
+        "has_outdoor_fitness": false
+      },
+      "Facility_54": {
+        "name": "唐山市体育中心跳水馆",
+        "type": "公共游泳(跳水)",
+        "operator": "唐山市体育中心",
+        "build_year": 2005,
+        "address": "地址：河北省唐山市路北区文化路街道建设南路92号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/10/13/aeec3266-1cc5-466f-b021-e9f4d8df3806.jpg",
+        "building_area": 3254.18,
+        "site_area": 2780.0,
+        "land_area": 13060.0,
+        "seats": 200,
+        "daily_visitors": 126,
+        "has_outdoor_fitness": false
+      },
+      "Facility_55": {
+        "name": "廊坊市游泳馆",
+        "type": "公共游泳(跳水)",
+        "operator": "廊坊市游泳馆",
+        "build_year": 2002,
+        "address": "地址：河北省廊坊市广阳区耀华道街道北凤道街318号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/js365/upload/20220621/df57dc13ec974c1b8451123ab06dfe9f.jpg",
+        "building_area": 4757.0,
+        "site_area": 1244.0,
+        "land_area": 9000.0,
+        "seats": 200,
+        "daily_visitors": 124,
+        "has_outdoor_fitness": false
+      },
+      "Facility_56": {
+        "name": "石家庄市中山体育馆",
+        "type": "体育馆",
+        "operator": "石家庄市中山体育场",
+        "build_year": 1994,
+        "address": "地址：河北省石家庄市桥西区维明街道自强路117号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20240725/fc5c888aeb514a94884f49f631d50ff9.jpg",
+        "building_area": 12000.0,
+        "site_area": 1500.0,
+        "land_area": 4384.74,
+        "seats": 3800,
+        "daily_visitors": 118,
+        "has_outdoor_fitness": false
+      },
+      "Facility_57": {
+        "name": "武安市文化体育中心体育馆",
+        "type": "体育馆",
+        "operator": "河北中茂卓汇文化传播有限公司",
+        "build_year": 2012,
+        "address": "地址：河北省邯郸市武安市新华街道体育路交叉口东南角号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/07/20/fb6dd7b3-5967-46b6-9da3-ca13bd4f5b72.jpg",
+        "building_area": 20000.0,
+        "site_area": 20000.0,
+        "land_area": 23000.0,
+        "seats": 2500,
+        "daily_visitors": 116,
+        "has_outdoor_fitness": false
+      },
+      "Facility_58": {
+        "name": "邢台市体育馆",
+        "type": "体育馆",
+        "operator": "邢台市体育馆",
+        "build_year": 1991,
+        "address": "地址：河北省邢台市信都区中兴西街道中兴西大街368号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/07/20/7b551d45-ce66-4805-b27f-f14a71bc24ae.jpg",
+        "building_area": 8050.0,
+        "site_area": 8400.0,
+        "land_area": 12000.0,
+        "seats": 3850,
+        "daily_visitors": 116,
+        "has_outdoor_fitness": false
+      },
+      "Facility_59": {
+        "name": "滦南县全民健身活动中心",
+        "type": "健身中心",
+        "operator": "滦南县文化广电和旅游局",
+        "build_year": 2020,
+        "address": "地址：河北省唐山市滦南县友谊路街道友谊路00号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/04/30/46d1aa9b-273f-4b31-9a7d-74e887ddbf95.jpg",
+        "building_area": 2603.6,
+        "site_area": 3726.6,
+        "land_area": 6146.0,
+        "seats": 0,
+        "daily_visitors": 110,
+        "has_outdoor_fitness": false
+      },
+      "Facility_60": {
+        "name": "宽城教育园区体育馆",
+        "type": "体育馆",
+        "operator": "宽城满族自治县民族教育园区管理中心",
+        "build_year": 2013,
+        "address": "地址：河北省承德市宽城满族自治县宽城乡镇学苑东路12号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/07/23/399eac90-0db7-4fdf-b75a-83f61a3f5127.jpg",
+        "building_area": 7660.0,
+        "site_area": 10000.0,
+        "land_area": 10000.0,
+        "seats": 3000,
+        "daily_visitors": 108,
+        "has_outdoor_fitness": false
+      },
+      "Facility_61": {
+        "name": "平泉市体育活动中心",
+        "type": "体育馆",
+        "operator": "平泉市体育活动中心",
+        "build_year": 2007,
+        "address": "地址：河北省承德市平泉市城区街道府前街街19号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/js365/upload/20220624/f00256774bbb4cfeb143977d590408b5.jpg",
+        "building_area": 6072.0,
+        "site_area": 5040.0,
+        "land_area": 25040.0,
+        "seats": 450,
+        "daily_visitors": 105,
+        "has_outdoor_fitness": false
+      },
+      "Facility_62": {
+        "name": "宁晋县全民健身中心",
+        "type": "健身中心",
+        "operator": "宁晋县唯信物业管理有限公司",
+        "build_year": 2020,
+        "address": "地址：河北省邢台市宁晋县凤凰镇乡镇西关街31号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/06/08/35896485-a0c3-457f-9585-bdb1aafdfb3b.jpg",
+        "building_area": 2956.09,
+        "site_area": 3000.0,
+        "land_area": 2846.85,
+        "seats": 0,
+        "daily_visitors": 104,
+        "has_outdoor_fitness": false
+      },
+      "Facility_63": {
+        "name": "保定市第二重点业余体校运动场",
+        "type": "体育场",
+        "operator": "保定市第二重点业余体校",
+        "build_year": 1983,
+        "address": "地址：河北省保定市莲池区五四路街道街道七一中路路739号号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20240715/52b459cf8f8746dfaa32040392661612.jpg",
+        "building_area": 19720.0,
+        "site_area": 19720.0,
+        "land_area": 37048.0,
+        "seats": 500,
+        "daily_visitors": 103,
+        "has_outdoor_fitness": false
+      },
+      "Facility_64": {
+        "name": "定州市体育场",
+        "type": "体育场",
+        "operator": "定州市青少年业余体育学校",
+        "build_year": 1974,
+        "address": "地址：河北省保定市定州市北城区街道中山中路定州市体育场门牌",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/js365/upload/20220728/b925a1113fa149cfae17fc15236594f2.jpg",
+        "building_area": 896.0,
+        "site_area": 23732.0,
+        "land_area": 24617.04,
+        "seats": 858,
+        "daily_visitors": 101,
+        "has_outdoor_fitness": false
+      },
+      "Facility_65": {
+        "name": "滦平县青少年活动中心",
+        "type": "健身中心",
+        "operator": "滦平县青少年活动中心",
+        "build_year": 2014,
+        "address": "地址：河北省承德市滦平县滦平县街道河滨路2号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/06/25/7f564905-492e-408c-8d14-2df48fb3f3a3.jpg",
+        "building_area": 2400.0,
+        "site_area": 4000.0,
+        "land_area": 3000.0,
+        "seats": 0,
+        "daily_visitors": 97,
+        "has_outdoor_fitness": false
+      },
+      "Facility_66": {
+        "name": "正定县全民健身中心",
+        "type": "健身中心",
+        "operator": "河北元禾物业管理有限公司",
+        "build_year": 2023,
+        "address": "地址：河北省石家庄市正定县正定镇乡镇常山东路路15号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20230620/92ec10b4271b4bacb86ab00df6a6a839.jpg",
+        "building_area": 3871.77,
+        "site_area": 3100.0,
+        "land_area": 6000.0,
+        "seats": 0,
+        "daily_visitors": 92,
+        "has_outdoor_fitness": false
+      },
+      "Facility_67": {
+        "name": "廊坊市体育馆",
+        "type": "体育馆",
+        "operator": "廊坊市体育馆",
+        "build_year": 1999,
+        "address": "地址：河北省廊坊市广阳区金源街道和平路189号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/07/20/ef3b67bb-25f1-46c9-93a2-bb815acf188b.jpg",
+        "building_area": 8300.0,
+        "site_area": 11800.0,
+        "land_area": 33333.33,
+        "seats": 3200,
+        "daily_visitors": 91,
+        "has_outdoor_fitness": false
+      },
+      "Facility_68": {
+        "name": "唐山新体育中心体育场",
+        "type": "体育场",
+        "operator": "唐山文旅体育场馆运营管理有限公司",
+        "build_year": 2019,
+        "address": "地址：河北省唐山市路南区梁家屯街道卫国路与新岳道交口门牌",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20230614/4a1f0b3247d34234b27d7c69f5a51754.jpg",
+        "building_area": 68455.0,
+        "site_area": 88185.15,
+        "land_area": 103415.15,
+        "seats": 35000,
+        "daily_visitors": 89,
+        "has_outdoor_fitness": false
+      },
+      "Facility_69": {
+        "name": "临漳县体育中心体育场",
+        "type": "体育场",
+        "operator": "临漳县体育总会",
+        "build_year": 2012,
+        "address": "地址：河北省邯郸市临漳县临漳镇街道金凤南大街街36号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/05/06/e4312fae-215d-4597-852b-352d6638bb83.jpg",
+        "building_area": 42000.0,
+        "site_area": 42000.0,
+        "land_area": 42000.0,
+        "seats": 4300,
+        "daily_visitors": 88,
+        "has_outdoor_fitness": false
+      },
+      "Facility_70": {
+        "name": "唐山市体育中心多功能体育馆",
+        "type": "体育馆",
+        "operator": "唐山市体育中心",
+        "build_year": 1995,
+        "address": "地址：河北省唐山市路北区文化路街道建设南路92号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/10/13/8f626055-1c97-4cb1-979c-f5fe5c1a9829.jpg",
+        "building_area": 4008.0,
+        "site_area": 3800.0,
+        "land_area": 17300.0,
+        "seats": 1500,
+        "daily_visitors": 83,
+        "has_outdoor_fitness": false
+      },
+      "Facility_71": {
+        "name": "尚义县室内滑冰馆",
+        "type": "体育馆",
+        "operator": "尚义县教育体育和科学技术局",
+        "build_year": 2022,
+        "address": "地址：河北省张家口市尚义县南壕堑镇乡镇秀水大街街30号号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20230626/6f28f0fa7e3b4d8987dbce5a5486ddfd.jpg",
+        "building_area": 3321.0,
+        "site_area": 3268.0,
+        "land_area": 5054.0,
+        "seats": 300,
+        "daily_visitors": 80,
+        "has_outdoor_fitness": false
+      },
+      "Facility_72": {
+        "name": "柏乡县全民健身中心",
+        "type": "健身中心",
+        "operator": "柏乡县教育文化广电体育和旅游局",
+        "build_year": 2016,
+        "address": "地址：河北省邢台市柏乡县柏乡乡镇迎宾路99号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/07/22/84d45c8d-a0fc-4d39-80b2-fccbf82ff9d2.jpg",
+        "building_area": 1300.0,
+        "site_area": 1300.0,
+        "land_area": 2500.0,
+        "seats": 0,
+        "daily_visitors": 77,
+        "has_outdoor_fitness": false
+      },
+      "Facility_73": {
+        "name": "承德县综合滑冰馆",
+        "type": "",
+        "operator": "承德县教育和体育局",
+        "build_year": 2020,
+        "address": "地址：河北省承德市承德县下板城街道劲牛广场街1号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/js365/upload/20220714/ce6380ffab7e45b5b9a1c31ca8169acb.png",
+        "building_area": 3370.0,
+        "site_area": 5800.0,
+        "land_area": 12600.0,
+        "seats": 0,
+        "daily_visitors": 66,
+        "has_outdoor_fitness": false
+      },
+      "Facility_74": {
+        "name": "隆化县奥体中心",
+        "type": "体育馆",
+        "operator": "隆化县奥体中心",
+        "build_year": 2012,
+        "address": "地址：河北省承德市隆化县安洲街道街道河东大街街134号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/10/10/f6b50563-003c-4e04-9321-ad9e3921d1f5.jpg",
+        "building_area": 9904.14,
+        "site_area": 46991.68,
+        "land_area": 51635.82,
+        "seats": 3000,
+        "daily_visitors": 58,
+        "has_outdoor_fitness": false
+      },
+      "Facility_75": {
+        "name": "平乡县全民健身中心",
+        "type": "健身中心",
+        "operator": "北京祥云盛世体育文化发展有限公司",
+        "build_year": 2014,
+        "address": "地址：河北省邢台市平乡县G230街道建设大街街南段号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/05/08/297f5edb-7bed-4109-b1fa-b949f2466a1a.jpg",
+        "building_area": 4675.0,
+        "site_area": 13333.0,
+        "land_area": 13333.0,
+        "seats": 0,
+        "daily_visitors": 57,
+        "has_outdoor_fitness": false
+      },
+      "Facility_76": {
+        "name": "高邑县公共体育馆",
+        "type": "体育馆",
+        "operator": "高邑县拳击协会",
+        "build_year": 2019,
+        "address": "地址：河北省石家庄市高邑县高邑镇乡镇北关村太行路152号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/js365/upload/20220624/02dcf9ebd3124dbea6c12190a8558371.jpg",
+        "building_area": 5000.0,
+        "site_area": 11500.0,
+        "land_area": 13320.0,
+        "seats": 100,
+        "daily_visitors": 57,
+        "has_outdoor_fitness": false
+      },
+      "Facility_77": {
+        "name": "唐山九江体育中心游泳馆",
+        "type": "公共游泳(跳水)",
+        "operator": "唐山九江体育中心",
+        "build_year": 2012,
+        "address": "地址：河北省唐山市迁安市永顺街道惠兴大街街999号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/07/20/3135ec94-f61d-497e-adc0-9abfcd91ef7d.jpg",
+        "building_area": 29357.8,
+        "site_area": 18907.2,
+        "land_area": 41000.0,
+        "seats": 1500,
+        "daily_visitors": 56,
+        "has_outdoor_fitness": false
+      },
+      "Facility_78": {
+        "name": "衡水市体育馆",
+        "type": "体育馆",
+        "operator": "衡水市体育馆",
+        "build_year": 1999,
+        "address": "地址：河北省衡水市桃城区河西街道昌明街518号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/10/08/9791ad1c-90a7-44d1-b6b3-16c7a5b2f794.jpg",
+        "building_area": 95000.0,
+        "site_area": 12500.0,
+        "land_area": 18000.0,
+        "seats": 3600,
+        "daily_visitors": 55,
+        "has_outdoor_fitness": false
+      },
+      "Facility_79": {
+        "name": "张家口市宣化区滑冰馆",
+        "type": "体育馆",
+        "operator": "张家口健奥文化体育发展有限公司",
+        "build_year": 2020,
+        "address": "地址：河北省张家口市宣化区柳川河东路街道柳川街01号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/10/13/45b3ef10-4f04-47b1-9663-780efaddb05e.jpg",
+        "building_area": 1964.0,
+        "site_area": 1964.0,
+        "land_area": 2200.0,
+        "seats": 180,
+        "daily_visitors": 55,
+        "has_outdoor_fitness": false
+      },
+      "Facility_80": {
+        "name": "衡水市武邑县体育馆",
+        "type": "体育馆",
+        "operator": "河北武邑中学",
+        "build_year": 2020,
+        "address": "地址：河北省衡水市武邑县武邑镇街道宏达路街352号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/07/27/6aac0a88-492d-46f1-a74a-67330c5537ff.jpg",
+        "building_area": 2100.0,
+        "site_area": 2500.0,
+        "land_area": 2500.0,
+        "seats": 800,
+        "daily_visitors": 53,
+        "has_outdoor_fitness": false
+      },
+      "Facility_81": {
+        "name": "高新区气膜体育馆",
+        "type": "体育馆",
+        "operator": "高新区文化服务中心",
+        "build_year": 2020,
+        "address": "地址：河北省石家庄市石家庄高新技术产业开发区长江街道闽江道街1号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20230717/b0ccdc0d860e4396985a3025b342d0f6.jpg",
+        "building_area": 2100.0,
+        "site_area": 1800.0,
+        "land_area": 3000.0,
+        "seats": 20,
+        "daily_visitors": 53,
+        "has_outdoor_fitness": false
+      },
+      "Facility_82": {
+        "name": "武安市文化体育中心游泳馆",
+        "type": "公共游泳(跳水)",
+        "operator": "河北中茂卓汇文化传播有限公司",
+        "build_year": 2012,
+        "address": "地址：河北省邯郸市武安市新华街道体育路交叉处东南角号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/07/20/a3e63659-b7e1-4975-998b-b265ce984a8f.JPG",
+        "building_area": 10000.0,
+        "site_area": 11000.0,
+        "land_area": 11000.0,
+        "seats": 1250,
+        "daily_visitors": 50,
+        "has_outdoor_fitness": false
+      },
+      "Facility_83": {
+        "name": "石家庄市鹿泉区篮球馆",
+        "type": "体育馆",
+        "operator": "石家庄市鹿泉区体育场",
+        "build_year": 1995,
+        "address": "地址：河北省石家庄市鹿泉区获鹿镇乡乡镇向阳大街街213号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/04/30/e25f5112-02e2-4f62-a3f0-4a7914a528c7.jpg",
+        "building_area": 1030.0,
+        "site_area": 840.0,
+        "land_area": 29683.22,
+        "seats": 80,
+        "daily_visitors": 50,
+        "has_outdoor_fitness": false
+      },
+      "Facility_84": {
+        "name": "邢台市任泽区全民健身中心",
+        "type": "健身中心",
+        "operator": "任泽区文化广电体育和旅游局",
+        "build_year": 2017,
+        "address": "地址：河北省邢台市任县任城镇乡镇人民大街街387号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/06/09/dccafb38-d6ce-4226-9a64-9acd41f78e6b.png",
+        "building_area": 4702.0,
+        "site_area": 1800.0,
+        "land_area": 2760.73,
+        "seats": 0,
+        "daily_visitors": 50,
+        "has_outdoor_fitness": false
+      },
+      "Facility_85": {
+        "name": "清苑区体育馆",
+        "type": "体育馆",
+        "operator": "清苑区集结号健身休闲俱乐部",
+        "build_year": 2022,
+        "address": "地址：河北省保定市清苑区清苑镇街道长城南大街街清苑区体育馆号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20230627/6056cae381bd46d7884a370e26e82b39.jpg",
+        "building_area": 5986.0,
+        "site_area": 5500.0,
+        "land_area": 4500.0,
+        "seats": 350,
+        "daily_visitors": 48,
+        "has_outdoor_fitness": false
+      },
+      "Facility_86": {
+        "name": "辛集市体育馆",
+        "type": "体育馆",
+        "operator": "河北省石家庄市体育学校辛集分校",
+        "build_year": 2002,
+        "address": "地址：河北省辛集市辛集市区辛集镇乡镇育红街街79号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/04/29/47fe1dfc-8923-450e-b584-ab4c7b4cf2f3.jpg",
+        "building_area": 2700.0,
+        "site_area": 2000.0,
+        "land_area": 3200.0,
+        "seats": 2180,
+        "daily_visitors": 47,
+        "has_outdoor_fitness": false
+      },
+      "Facility_87": {
+        "name": "张北县全民健身中心",
+        "type": "健身中心",
+        "operator": "张北县文化广电旅游和体育局",
+        "build_year": 2012,
+        "address": "地址：河北省张家口市张北县花园街道中都大街街三中西侧8号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/07/20/d5653f6e-0671-4d56-a1d7-fc576652830a.JPG",
+        "building_area": 2076.0,
+        "site_area": 2700.0,
+        "land_area": 3676.0,
+        "seats": 0,
+        "daily_visitors": 46,
+        "has_outdoor_fitness": false
+      },
+      "Facility_88": {
+        "name": "承德市奥林匹克体育中心体育馆",
+        "type": "体育馆",
+        "operator": "承德市奥林匹克体育中心",
+        "build_year": 2011,
+        "address": "地址：河北省承德市双桥区冯营子乡镇学院街1号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/07/23/5c33a232-6748-4468-b6b4-d11ae73d69a0.png",
+        "building_area": 17500.0,
+        "site_area": 21600.0,
+        "land_area": 38000.0,
+        "seats": 6000,
+        "daily_visitors": 42,
+        "has_outdoor_fitness": false
+      },
+      "Facility_89": {
+        "name": "大城县体育场",
+        "type": "体育场",
+        "operator": "大城县教育和体育局",
+        "build_year": 2016,
+        "address": "地址：河北省廊坊市大城县平舒镇乡镇廊沧路青少年校外活动中心门牌",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/05/06/6fb00c98-2f95-46f1-af34-3d9bc07eaa2a.jpg",
+        "building_area": 4500.0,
+        "site_area": 28000.0,
+        "land_area": 32000.0,
+        "seats": 1000,
+        "daily_visitors": 41,
+        "has_outdoor_fitness": false
+      },
+      "Facility_90": {
+        "name": "石家庄滑冰馆",
+        "type": "体育馆",
+        "operator": "石家庄裕彤体育产业发展有限责任公司",
+        "build_year": 2020,
+        "address": "地址：河北省石家庄市长安区育才街道中山东路350号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/js365/upload/20220621/e76e1aa77d184d6bbaa643c4d32b2192.jpg",
+        "building_area": 3264.0,
+        "site_area": 3264.0,
+        "land_area": 5264.0,
+        "seats": 371,
+        "daily_visitors": 39,
+        "has_outdoor_fitness": false
+      },
+      "Facility_91": {
+        "name": "武安市文化体育中心体育场",
+        "type": "体育场",
+        "operator": "河北中茂卓汇文化传播有限公司",
+        "build_year": 2012,
+        "address": "地址：河北省邯郸市武安市新华街道体育路交叉口东南角号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/07/20/9613ac79-a44a-4c0d-8544-c19618ee2ffc.jpg",
+        "building_area": 18000.0,
+        "site_area": 18000.0,
+        "land_area": 37000.0,
+        "seats": 17000,
+        "daily_visitors": 34,
+        "has_outdoor_fitness": false
+      },
+      "Facility_92": {
+        "name": "唐县全民健身中心",
+        "type": "健身中心",
+        "operator": "唐县教育和体育局",
+        "build_year": 2005,
+        "address": "地址：河北省保定市唐县仁厚镇乡镇唐王路18号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/05/12/a8f8cabf-371a-41bc-8998-950954621f8e.jpg",
+        "building_area": 6000.0,
+        "site_area": 4700.0,
+        "land_area": 4000.0,
+        "seats": 0,
+        "daily_visitors": 32,
+        "has_outdoor_fitness": false
+      },
+      "Facility_93": {
+        "name": "廊坊市滑冰馆",
+        "type": "",
+        "operator": "廊坊市体育馆",
+        "build_year": 2020,
+        "address": "地址：河北省廊坊市广阳区新源道街道和平路189号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/05/07/ed6a6774-ba3c-460b-9b2b-59f6c3477a99.jpg",
+        "building_area": 3858.68,
+        "site_area": 4200.0,
+        "land_area": 3406.27,
+        "seats": 404,
+        "daily_visitors": 32,
+        "has_outdoor_fitness": false
+      },
+      "Facility_94": {
+        "name": "衡水市冀州区全民健身中心",
+        "type": "健身中心",
+        "operator": "衡水市冀州区教育局体育事业中心",
+        "build_year": 1995,
+        "address": "地址：河北省衡水市冀州区冀州镇街道冀新路36号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/05/13/85fb6adf-ce4d-455c-b266-ea00990f8417.jpg",
+        "building_area": 8317.0,
+        "site_area": 8317.0,
+        "land_area": 8317.0,
+        "seats": 0,
+        "daily_visitors": 29,
+        "has_outdoor_fitness": false
+      },
+      "Facility_95": {
+        "name": "巨鹿县全民健身中心",
+        "type": "健身中心",
+        "operator": "巨鹿县全民健身中心",
+        "build_year": 2011,
+        "address": "地址：河北省邢台市巨鹿县巨鹿镇乡镇风清东路路2号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/09/29/71b53683-5049-42a0-9269-a9d8f06d2323.jpg",
+        "building_area": 1400.0,
+        "site_area": 1050.0,
+        "land_area": 1200.0,
+        "seats": 0,
+        "daily_visitors": 26,
+        "has_outdoor_fitness": false
+      },
+      "Facility_96": {
+        "name": "赞皇县体育馆",
+        "type": "体育馆",
+        "operator": "赞皇县文化广电体育和旅游局",
+        "build_year": 2016,
+        "address": "地址：河北省石家庄市赞皇县西龙门乡镇布古庄村二中南邻null号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/05/13/85baf517-0e5d-41ad-aaa2-8ad4a87cde17.jpg",
+        "building_area": 3000.0,
+        "site_area": 8000.0,
+        "land_area": 11000.0,
+        "seats": 1000,
+        "daily_visitors": 25,
+        "has_outdoor_fitness": false
+      },
+      "Facility_97": {
+        "name": "曲周县凤凰艺体中心",
+        "type": "健身中心",
+        "operator": "曲周县教育体育局",
+        "build_year": 2023,
+        "address": "地址：河北省邯郸市曲周县凤凰新区乡镇凤凰街街1号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20230629/d798140ce12343b09073ff88d78da41a.png",
+        "building_area": 15933.0,
+        "site_area": 133933.0,
+        "land_area": 194000.0,
+        "seats": 0,
+        "daily_visitors": 25,
+        "has_outdoor_fitness": false
+      },
+      "Facility_98": {
+        "name": "唐山市体育中心游泳馆",
+        "type": "公共游泳(跳水)",
+        "operator": "唐山市体育中心",
+        "build_year": 2002,
+        "address": "地址：河北省唐山市路北区文化路街道建设南路92号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/07/27/2156522d-1765-4997-806c-54777129f07e.jpg",
+        "building_area": 7582.7,
+        "site_area": 3875.0,
+        "land_area": 6880.0,
+        "seats": 1500,
+        "daily_visitors": 24,
+        "has_outdoor_fitness": false
+      },
+      "Facility_99": {
+        "name": "大厂回族自治县气膜滑冰馆",
+        "type": "体育馆",
+        "operator": "北京箭步体育发展有限公司",
+        "build_year": 2020,
+        "address": "地址：河北省廊坊市大厂回族自治县北辰街街道和平北路180号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/05/07/c60084fc-b6f1-4b77-bdb7-47c14bcd5549.png",
+        "building_area": 1500.0,
+        "site_area": 2632.0,
+        "land_area": 2500.0,
+        "seats": 200,
+        "daily_visitors": 21,
+        "has_outdoor_fitness": false
+      },
+      "Facility_100": {
+        "name": "承德县体育馆",
+        "type": "健身中心",
+        "operator": "承德县教育和体育局",
+        "build_year": 2021,
+        "address": "地址：河北省承德市承德县下板城街道迎宾路1号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/js365/upload/20220624/86681026c4a74dc397111b1904818060.jpg",
+        "building_area": 3800.0,
+        "site_area": 14200.0,
+        "land_area": 16500.0,
+        "seats": 0,
+        "daily_visitors": 21,
+        "has_outdoor_fitness": false
+      },
+      "Facility_101": {
+        "name": "阜城县全民健身中心体育场",
+        "type": "体育场",
+        "operator": "秦皇岛帝秀物业服务有限公司",
+        "build_year": 2021,
+        "address": "地址：河北省衡水市阜城县阜城乡镇阜康路106号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/05/09/c83223b3-5e20-4f39-b968-87038411d43a.jpg",
+        "building_area": 13885.0,
+        "site_area": 18000.0,
+        "land_area": 36000.0,
+        "seats": 9000,
+        "daily_visitors": 20,
+        "has_outdoor_fitness": false
+      },
+      "Facility_102": {
+        "name": "安平县体育馆",
+        "type": "体育馆",
+        "operator": "安平县体育局",
+        "build_year": 2013,
+        "address": "地址：河北省衡水市安平县安平镇乡镇英才街街6号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/05/06/5af2a9d8-5d6b-40d7-951f-f818b0e63f42.jpg",
+        "building_area": 9641.0,
+        "site_area": 7600.0,
+        "land_area": 16000.0,
+        "seats": 1416,
+        "daily_visitors": 19,
+        "has_outdoor_fitness": false
+      },
+      "Facility_103": {
+        "name": "献县体育馆",
+        "type": "体育馆",
+        "operator": "献县教育体育局",
+        "build_year": 2009,
+        "address": "地址：河北省沧州市献县106国道街道京开大道街7号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/05/14/fb7a6165-9abe-4e5a-ac15-d7d6a7ec3750.jpg",
+        "building_area": 2193.89,
+        "site_area": 1600.0,
+        "land_area": 1997.67,
+        "seats": 240,
+        "daily_visitors": 18,
+        "has_outdoor_fitness": false
+      },
+      "Facility_104": {
+        "name": "古冶区体育馆",
+        "type": "体育馆",
+        "operator": "古冶区文化广电和旅游局",
+        "build_year": 1982,
+        "address": "地址：河北省唐山市古冶区林西街道新林街88号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/06/04/3dc40578-3a67-4752-aaac-aa06f8a1a128.jpg",
+        "building_area": 2000.0,
+        "site_area": 1060.5,
+        "land_area": 2000.0,
+        "seats": 100,
+        "daily_visitors": 15,
+        "has_outdoor_fitness": false
+      },
+      "Facility_105": {
+        "name": "徐水区全民健身中心",
+        "type": "健身中心",
+        "operator": "徐水区教育和体育局",
+        "build_year": 1990,
+        "address": "地址：河北省保定市徐水区安肃镇乡镇振兴中路66号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/05/17/72cd79d1-68de-4102-b8f2-833c43717dd7.jpg",
+        "building_area": 3000.0,
+        "site_area": 5000.0,
+        "land_area": 5000.0,
+        "seats": 0,
+        "daily_visitors": 14,
+        "has_outdoor_fitness": false
+      },
+      "Facility_106": {
+        "name": "唐山市丰南区体育馆",
+        "type": "体育馆",
+        "operator": "唐山市丰南区体育馆",
+        "build_year": 1992,
+        "address": "地址：河北省唐山市丰南区胥各庄乡镇青年路64号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/04/30/5012c225-f8e8-4f5a-9e60-4df031eb241d.jpg",
+        "building_area": 7812.0,
+        "site_area": 2550.0,
+        "land_area": 15900.0,
+        "seats": 2064,
+        "daily_visitors": 14,
+        "has_outdoor_fitness": false
+      },
+      "Facility_107": {
+        "name": "曹妃甸区滑冰馆",
+        "type": "体育馆",
+        "operator": "曹妃甸区滑冰馆",
+        "build_year": 2020,
+        "address": "地址：河北省唐山市曹妃甸区唐海镇乡乡镇新城大街街196号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/js365/upload/20220728/45576992481c42b8a56c5c1ede4042bc.jpg",
+        "building_area": 1500.0,
+        "site_area": 800.0,
+        "land_area": 1500.0,
+        "seats": 0,
+        "daily_visitors": 13,
+        "has_outdoor_fitness": false
+      },
+      "Facility_108": {
+        "name": "保定市清苑区全民健身中心",
+        "type": "健身中心",
+        "operator": "保定市清苑区青少年校外活动中心",
+        "build_year": 2010,
+        "address": "地址：河北省保定市清苑区清苑街道清苑北街573号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/js365/upload/20220725/623f5206315c495695571a24a4eb7c18.jpg",
+        "building_area": 4500.0,
+        "site_area": 2800.0,
+        "land_area": 6642.0,
+        "seats": 0,
+        "daily_visitors": 12,
+        "has_outdoor_fitness": false
+      },
+      "Facility_109": {
+        "name": "东光县滑冰馆",
+        "type": "",
+        "operator": "东光县文体广电和旅游局",
+        "build_year": 2020,
+        "address": "地址：河北省沧州市东光县东光镇街道建设大街街无号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/js365/upload/20220726/a6fbbf4752234b4bae8201152d902e17.jpg",
+        "building_area": 1076.8,
+        "site_area": 995.4,
+        "land_area": 995.4,
+        "seats": 0,
+        "daily_visitors": 11,
+        "has_outdoor_fitness": false
+      },
+      "Facility_110": {
+        "name": "石家庄市高邑县青少年体育训练中心",
+        "type": "体育馆",
+        "operator": "高邑县业余体育学校",
+        "build_year": 2018,
+        "address": "地址：河北省石家庄市高邑县高邑县街道侯家庄街太行路4号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20230629/0fc2c86dcd7840e18f05bd5f63621e7b.jpg",
+        "building_area": 3000.0,
+        "site_area": 7300.0,
+        "land_area": 20000.0,
+        "seats": 1000,
+        "daily_visitors": 7,
+        "has_outdoor_fitness": false
+      },
+      "Facility_111": {
+        "name": "八极拳展演馆",
+        "type": "体育馆",
+        "operator": "孟村回族自治县文体广电和旅游局",
+        "build_year": 2020,
+        "address": "地址：河北省沧州市孟村回族自治县兴武大街道团结路8号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/04/30/9269d7b8-5744-4c09-9792-641cdbcd17ad.jpg",
+        "building_area": 5056.0,
+        "site_area": 5400.0,
+        "land_area": 9990.0,
+        "seats": 1648,
+        "daily_visitors": 6,
+        "has_outdoor_fitness": false
+      },
+      "Facility_112": {
+        "name": "卢龙县体育场",
+        "type": "体育场",
+        "operator": "卢龙县教育和体育局",
+        "build_year": 2013,
+        "address": "地址：河北省秦皇岛市卢龙县卢龙镇乡镇永平大街街116号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/07/26/a2b98ae4-c18d-473c-8e2e-4e1bffe8c9d6.jpg",
+        "building_area": 19668.0,
+        "site_area": 16918.0,
+        "land_area": 61938.0,
+        "seats": 5616,
+        "daily_visitors": 4,
+        "has_outdoor_fitness": false
+      },
+      "Facility_113": {
+        "name": "鹿泉区全民健身中心",
+        "type": "健身中心",
+        "operator": "鹿泉区文化广电体育和旅游局",
+        "build_year": 2023,
+        "address": "地址：河北省石家庄市鹿泉区获鹿镇街道北海山街0号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20230616/b6fe6908054f44b6b9164fd3b011c69d.jpg",
+        "building_area": 8000.0,
+        "site_area": 17649.0,
+        "land_area": 39327.0,
+        "seats": 0,
+        "daily_visitors": 4,
+        "has_outdoor_fitness": false
+      },
+      "Facility_114": {
+        "name": "曹妃甸冀东体育馆",
+        "type": "体育场",
+        "operator": "卢龙县教育和体育局",
+        "build_year": 2013,
+        "address": "地址：河北省秦皇岛市卢龙县卢龙镇乡镇永平大街街116号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20230625/9c89d990839a4466b4d6c2c1fc074763.jpg",
+        "building_area": 19668.0,
+        "site_area": 16918.0,
+        "land_area": 61938.0,
+        "seats": 5616,
+        "daily_visitors": 4,
+        "has_outdoor_fitness": false
+      },
+      "Facility_115": {
+        "name": "行唐滑冰馆",
+        "type": "",
+        "operator": "石家庄隆邑体育发展有限公司",
+        "build_year": 2023,
+        "address": "地址：河北省石家庄市行唐县只里乡街道白庙村街颍畔商街4号楼三楼号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20231013/4aa31bcbbb834e9c9515a20dfcc71a59.jpg",
+        "building_area": 865.0,
+        "site_area": 500.0,
+        "land_area": 865.0,
+        "seats": 0,
+        "daily_visitors": 4,
+        "has_outdoor_fitness": false
+      },
+      "Facility_116": {
+        "name": "辛集市滑冰馆",
+        "type": "体育馆",
+        "operator": "尚清(上海)体育文化发展有限公司",
+        "build_year": 2020,
+        "address": "地址：河北省辛集市辛集市区辛集镇乡镇方碑大街街0号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/04/29/555c76c8-cdec-49f4-bd0a-a8b1d7de1bb2.jpg",
+        "building_area": 6619.57,
+        "site_area": 4768.05,
+        "land_area": 12913.0,
+        "seats": 960,
+        "daily_visitors": 2,
+        "has_outdoor_fitness": false
+      },
+      "Facility_117": {
+        "name": "固安县滑冰馆",
+        "type": "体育馆",
+        "operator": "吉林省魁曦宇体育发展有限公司",
+        "build_year": 2021,
+        "address": "地址：河北省廊坊市固安县正兴街道文博馆街1号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/07/23/a50a807c-70c0-48d5-95c0-71cf9f57835a.jpg",
+        "building_area": 13141.21,
+        "site_area": 10008.04,
+        "land_area": 11733.33,
+        "seats": 460,
+        "daily_visitors": 2,
+        "has_outdoor_fitness": false
+      },
+      "Facility_118": {
+        "name": "青龙满族自治县全民健身中心",
+        "type": "健身中心",
+        "operator": "青龙满族自治县教育和体育局",
+        "build_year": 2009,
+        "address": "地址：河北省秦皇岛市青龙满族自治县青龙镇乡镇土坎子村12号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/js365/upload/20220728/63fd9ad392864629b412ac74c4817343.jpg",
+        "building_area": 1902.0,
+        "site_area": 1902.0,
+        "land_area": 951.0,
+        "seats": 0,
+        "daily_visitors": 2,
+        "has_outdoor_fitness": false
+      },
+      "Facility_119": {
+        "name": "隆尧县全民健身中心",
+        "type": "健身中心",
+        "operator": "隆尧县文化广电体育和旅游局",
+        "build_year": 2019,
+        "address": "地址：河北省邢台市隆尧县隆尧镇街道新华路2号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/06/08/4af59fbb-f8a8-479a-8bee-0b1d2fde783d.jpg",
+        "building_area": 2203.0,
+        "site_area": 13000.0,
+        "land_area": 13000.0,
+        "seats": 0,
+        "daily_visitors": 1,
+        "has_outdoor_fitness": false
+      },
+      "Facility_120": {
+        "name": "临漳县体育中心全民健身中心",
+        "type": "健身中心",
+        "operator": "临漳县体育总会",
+        "build_year": 2012,
+        "address": "地址：河北省邯郸市临漳县临漳镇街道金凤南大街街36号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/05/06/99d8d34d-7782-4d66-9858-a4c0d7ed24a9.jpg",
+        "building_area": 19000.0,
+        "site_area": 19000.0,
+        "land_area": 19333.0,
+        "seats": 0,
+        "daily_visitors": 1,
+        "has_outdoor_fitness": false
+      },
+      "Facility_121": {
+        "name": "霸州市乒乓球馆",
+        "type": "体育馆",
+        "operator": "霸州市教育和体育局",
+        "build_year": 2009,
+        "address": "地址：河北省廊坊市霸州市开发区街道益津北路49-1号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/10/15/63883f75-ee19-484b-b43f-878f6eb9c1ea.jpg",
+        "building_area": 3500.0,
+        "site_area": 8430.0,
+        "land_area": 10706.0,
+        "seats": 1500,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_122": {
+        "name": "泊头市体育馆",
+        "type": "体育馆",
+        "operator": "海润物业",
+        "build_year": 1991,
+        "address": "地址：河北省沧州市泊头市解放街道裕华西路89号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/07/20/64c3504f-b182-419e-bd1c-a776c2ba0bf6.jpg",
+        "building_area": 5400.0,
+        "site_area": 2765.0,
+        "land_area": 6000.0,
+        "seats": 3000,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_123": {
+        "name": "献县体育场",
+        "type": "体育场",
+        "operator": "献县教育体育局",
+        "build_year": 2014,
+        "address": "地址：河北省沧州市献县106国道东侧街道京开大道街7号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/05/14/03a2cc9b-38a4-4226-8897-d26c015507b7.jpg",
+        "building_area": 30423.7,
+        "site_area": 30138.7,
+        "land_area": 63936.0,
+        "seats": 1000,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_124": {
+        "name": "承德县全民健身活动中心",
+        "type": "健身中心",
+        "operator": "承德县教育和体育局",
+        "build_year": 2020,
+        "address": "地址：河北省承德市承德县杨村街道北环路2号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/js365/upload/20220623/b43db688a58748a8ab91f8a069769f80.jpg",
+        "building_area": 4984.0,
+        "site_area": 5000.0,
+        "land_area": 6000.0,
+        "seats": 580,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_125": {
+        "name": "塞北全民健身中心",
+        "type": "健身中心",
+        "operator": "塞北管理区文化广电和旅游局",
+        "build_year": 2021,
+        "address": "地址：河北省张家口市张家口市塞北管理区榆树沟管理处街道平安大街街1号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/js365/upload/20220628/1f5ae3ebf83f48de8dd98e55cc1b347c.jpg",
+        "building_area": 4408.0,
+        "site_area": 3000.0,
+        "land_area": 8133.0,
+        "seats": 0,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_126": {
+        "name": "康保县体育馆",
+        "type": "体育馆",
+        "operator": "康保县恒跃科技服务有限公司第一分公司",
+        "build_year": 2016,
+        "address": "地址：河北省张家口市康保县永安大街街道康食路18号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/07/23/06e711a1-584d-4831-bacc-7724941c314f.jpg",
+        "building_area": 3348.8,
+        "site_area": 3170.0,
+        "land_area": 14000.0,
+        "seats": 88,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_127": {
+        "name": "容城县体育馆",
+        "type": "体育馆",
+        "operator": "河北雄安万馆体育文化发展有限公司",
+        "build_year": 2015,
+        "address": "地址：河北省雄安新区容城县容城镇乡镇白洋淀大道街90号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/04/30/2a78c102-ee27-489d-93f2-77aa847f3615.jpg",
+        "building_area": 11800.0,
+        "site_area": 10200.0,
+        "land_area": 25200.0,
+        "seats": 896,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_128": {
+        "name": "保定市游泳馆",
+        "type": "公共游泳(跳水)",
+        "operator": "保定市游泳馆",
+        "build_year": 1988,
+        "address": "地址：河北省保定市莲池区永华街道公园街81号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/10/05/8cd81a9d-553d-44e0-824b-93835e8cb528.jpg",
+        "building_area": 6908.0,
+        "site_area": 13159.0,
+        "land_area": 15159.0,
+        "seats": 0,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_129": {
+        "name": "柏乡县室内滑冰馆",
+        "type": "体育馆",
+        "operator": "柏乡县教育文化广电体育和旅游局",
+        "build_year": 2020,
+        "address": "地址：河北省邢台市柏乡县柏乡乡镇建设路260号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/10/14/5c06e4aa-22be-407f-9e9c-8f6664702a7e.jpg",
+        "building_area": 743.0,
+        "site_area": 600.0,
+        "land_area": 743.0,
+        "seats": 180,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_130": {
+        "name": "内丘县全民健身中心",
+        "type": "健身中心",
+        "operator": "内丘县教育局",
+        "build_year": 2019,
+        "address": "地址：河北省邢台市内丘县内丘镇乡镇康庄东路2号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/07/23/5b4c3571-9213-4e0d-9d3c-dad73068bb7d.jpg",
+        "building_area": 4176.0,
+        "site_area": 4100.0,
+        "land_area": 6700.0,
+        "seats": 0,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_131": {
+        "name": "邢台市体育局气膜滑冰馆",
+        "type": "体育馆",
+        "operator": "邢台奥城冰雪体育文化传播有限公司",
+        "build_year": 2020,
+        "address": "地址：河北省邢台市襄都区y052乡镇园博园西门街2号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/10/11/f782fc32-bb6d-40da-a414-5f5583cc091a.jpg",
+        "building_area": 3780.0,
+        "site_area": 10530.0,
+        "land_area": 12040.0,
+        "seats": 400,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_132": {
+        "name": "唐山九江体育中心体育馆",
+        "type": "体育馆",
+        "operator": "唐山九江体育中心",
+        "build_year": 2012,
+        "address": "地址：河北省唐山市迁安市永顺街道惠兴大街街999号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/07/21/11974e11-dbd1-4152-89ba-c5f42a9cdb40.jpg",
+        "building_area": 26970.0,
+        "site_area": 19778.0,
+        "land_area": 45000.0,
+        "seats": 5000,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_133": {
+        "name": "新乐市体育馆",
+        "type": "体育馆",
+        "operator": "新乐市业余体校",
+        "build_year": 1990,
+        "address": "地址：河北省石家庄市新乐市长寿街道育才街街8号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20240723/ec4d3d79f31b44438170cf922be31781.jpg",
+        "building_area": 3777.14,
+        "site_area": 3777.14,
+        "land_area": 6666.67,
+        "seats": 500,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_134": {
+        "name": "赵县城市综合馆全民健身中心",
+        "type": "健身中心",
+        "operator": "河北奥创体育文化传播有限公司赵县分公司",
+        "build_year": 2022,
+        "address": "地址：河北省石家庄市赵县李春大道街道龙腾街街东北角号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/js365/upload/20220620/0fdf58d41eba46649b18980fe69110f4.jpg",
+        "building_area": 3368.75,
+        "site_area": 6700.0,
+        "land_area": 64153.58,
+        "seats": 0,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_135": {
+        "name": "任泽区公共滑冰馆",
+        "type": "",
+        "operator": "任泽区文化广电体育和旅游局",
+        "build_year": 2020,
+        "address": "地址：河北省邢台市任县邢台市街道育才街1号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/js365/upload/20220728/571b0d79517e49209e3effc22a558581.jpg",
+        "building_area": 415.0,
+        "site_area": 300.0,
+        "land_area": 415.0,
+        "seats": 0,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_136": {
+        "name": "石家庄市鹿泉区滑冰馆",
+        "type": "体育馆",
+        "operator": "石家庄市鹿泉区冰雪运动协会",
+        "build_year": 2021,
+        "address": "地址：河北省石家庄市鹿泉区获鹿镇乡乡镇安康街街1号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/js365/upload/20220727/9dabc5eea0124bb5a87e8312b221461b.jpg",
+        "building_area": 800.0,
+        "site_area": 800.0,
+        "land_area": 950.0,
+        "seats": 30,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_137": {
+        "name": "鹿泉区游泳馆",
+        "type": "公共游泳(跳水)",
+        "operator": "鹿泉区体育场",
+        "build_year": 2006,
+        "address": "地址：河北省石家庄市鹿泉区获鹿镇街道八街街213号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20230619/518acfbee7b740369e1a62a328e977b8.jpg",
+        "building_area": 2000.0,
+        "site_area": 1800.0,
+        "land_area": 29683.22,
+        "seats": 0,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_138": {
+        "name": "行唐县游泳馆",
+        "type": "公共游泳(跳水)",
+        "operator": "石家庄欢拓文化发展有限公司",
+        "build_year": 2022,
+        "address": "地址：河北省石家庄市行唐县只里乡乡镇颍水大街街2号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20230614/bfedf7d34eaf42708f5c7fc71faee126.jpg",
+        "building_area": 3478.65,
+        "site_area": 7375.38,
+        "land_area": 7375.38,
+        "seats": 0,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_139": {
+        "name": "邯郸市体育场",
+        "type": "体育场",
+        "operator": "邯郸市体育中心",
+        "build_year": 2004,
+        "address": "地址：河北省邯郸市邯山区陵东街道陵园路路86号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20230724/a404ea49f43343c5b4abc133a16ccfc1.jpg",
+        "building_area": 4171.0,
+        "site_area": 22038.0,
+        "land_area": 21716.0,
+        "seats": 7800,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_140": {
+        "name": "馆陶滑冰馆",
+        "type": "体育馆",
+        "operator": "馆陶县教育体育局",
+        "build_year": 2020,
+        "address": "地址：河北省邯郸市馆陶县寿山寺镇街道寿东村街A号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/js365/upload/20220728/0418742e76724669817051e2573bcf01.jpg",
+        "building_area": 5360.0,
+        "site_area": 12242.0,
+        "land_area": 14652.0,
+        "seats": 400,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_141": {
+        "name": "廊坊市体育场",
+        "type": "体育场",
+        "operator": "廊坊市体育局",
+        "build_year": 2010,
+        "address": "地址：河北省廊坊市廊坊经济技术开发区和平路街道和平路街189号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/07/23/3f50b6e0-6a10-4612-9c58-7a9f2f942527.jpeg",
+        "building_area": 29937.42,
+        "site_area": 112462.83,
+        "land_area": 130627.0,
+        "seats": 32000,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_142": {
+        "name": "石家庄市桥西区冰雪健身中心",
+        "type": "体育馆",
+        "operator": "河北奥创体育文化传播有限公司",
+        "build_year": 2021,
+        "address": "地址：河北省石家庄市桥西区东风街道东风西路105号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/js365/upload/20220629/b26c9c32e98f4ce19adffb12a71df35e.jpg",
+        "building_area": 3012.81,
+        "site_area": 2166.08,
+        "land_area": 2881.08,
+        "seats": 16,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_143": {
+        "name": "唐山市体育中心网球场",
+        "type": "",
+        "operator": "唐山市体育中心",
+        "build_year": 1995,
+        "address": "地址：河北省唐山市路北区文化街道建设南路街92号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20240722/c8c019df6acb438d871ca09d74c121e0.jpg",
+        "building_area": 3000.0,
+        "site_area": 2800.0,
+        "land_area": 4500.0,
+        "seats": 200,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_144": {
+        "name": "南和区滑冰馆",
+        "type": "",
+        "operator": "邢台奥城冰雪体育文化传播有限公司",
+        "build_year": 2022,
+        "address": "地址：河北省邢台市南和区中兴东大街街道贾宋村南和区滑冰馆门牌",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20240730/da1514f1cf584ccca7b00afe7423080b.png",
+        "building_area": 3185.0,
+        "site_area": 1500.0,
+        "land_area": 3185.0,
+        "seats": 520,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_145": {
+        "name": "保定市蠡县全民健身中心",
+        "type": "健身中心",
+        "operator": "蠡县教育和体育局",
+        "build_year": 2002,
+        "address": "地址：河北省保定市蠡县永盛街道南大街822号",
+        "subsidy_status": "2025年享受补助",
+        "image_url": "https://js365.org.cn/oss/js365/upload/2021/07/23/3610fecf-fd7c-4e42-95c1-56614b0959ec.jpg",
+        "building_area": 9000.0,
+        "site_area": 7000.0,
+        "land_area": 10000.0,
+        "seats": 0,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_146": {
+        "name": "晋州全民健身中心",
+        "type": "健身中心",
+        "operator": "石家庄晋拓体育发展有限公司",
+        "build_year": 2024,
+        "address": "地址：河北省石家庄市晋州市晋州街道中兴路街749号",
+        "subsidy_status": "",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20240724/e3c060f76d554f7fbf10398fabb32640.png",
+        "building_area": 6340.0,
+        "site_area": 5500.0,
+        "land_area": 14155.36,
+        "seats": 0,
+        "daily_visitors": 229,
+        "has_outdoor_fitness": false
+      },
+      "Facility_147": {
+        "name": "新乐市全民健身中心",
+        "type": "健身中心",
+        "operator": "新乐市文化广电体育和旅游局",
+        "build_year": 2024,
+        "address": "地址：河北省石家庄市新乐市长寿街道礼堂街街36号",
+        "subsidy_status": "",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20240922/f7a2803f4db64681931e4e1532c71dfa.jpg",
+        "building_area": 2751.0,
+        "site_area": 2500.0,
+        "land_area": 7107.0,
+        "seats": 0,
+        "daily_visitors": 183,
+        "has_outdoor_fitness": false
+      },
+      "Facility_148": {
+        "name": "清苑区室内滑冰馆",
+        "type": "体育馆",
+        "operator": "清苑区教育和体育局",
+        "build_year": 2020,
+        "address": "地址：河北省保定市清苑区北店乡镇西林水村325号",
+        "subsidy_status": "",
+        "image_url": "https://js365.org.cn/oss/js365/js365/upload/20220728/13d9bce26015424a9f2753551b0d098b.jpg",
+        "building_area": 1000.0,
+        "site_area": 1000.0,
+        "land_area": 1000.0,
+        "seats": 150,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_149": {
+        "name": "中央绿色体育公园网球馆",
+        "type": "",
+        "operator": "石家庄勇石体育发展有限责任公司",
+        "build_year": 2022,
+        "address": "地址：河北省石家庄市桥西区汇通街道汇华路路10号",
+        "subsidy_status": "",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20240729/ab838b34c3b84a418be44fbf079d1e8b.jpg",
+        "building_area": 5346.0,
+        "site_area": 1500.0,
+        "land_area": 3256.0,
+        "seats": 438,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_150": {
+        "name": "中央绿色体育公园乒乓球馆",
+        "type": "体育馆",
+        "operator": "石家庄勇石体育发展有限责任公司",
+        "build_year": 2022,
+        "address": "地址：河北省石家庄市桥西区汇通路街道汇华路街10号",
+        "subsidy_status": "",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20240729/3c3daf6ac97146d3b5b56bde948e4f93.jpg",
+        "building_area": 1391.0,
+        "site_area": 1350.0,
+        "land_area": 567.0,
+        "seats": 56,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_151": {
+        "name": "中央绿色体育公园多功能馆",
+        "type": "体育馆",
+        "operator": "石家庄勇石体育发展有限责任公司",
+        "build_year": 2022,
+        "address": "地址：河北省石家庄市桥西区汇通路与街道塔南路交叉口路16号",
+        "subsidy_status": "",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20240729/0d3d2366ecb24be7bf0532829e00a128.jpg",
+        "building_area": 2715.0,
+        "site_area": 1000.0,
+        "land_area": 1678.0,
+        "seats": 0,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_152": {
+        "name": "海港区全民健身中心",
+        "type": "健身中心",
+        "operator": "海港区体育指导中心",
+        "build_year": 2015,
+        "address": "地址：河北省秦皇岛市海港区建设大街街道建设大街街37号",
+        "subsidy_status": "",
+        "image_url": "https://www.js365.org.cn/oss/js365/upload/20240730/a934d720606f49fbbf68c2039020bd66.jpg",
+        "building_area": 1200.0,
+        "site_area": 845.0,
+        "land_area": 2000.0,
+        "seats": 0,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_153": {
+        "name": "",
+        "type": "",
+        "operator": "",
+        "build_year": 0,
+        "address": "",
+        "subsidy_status": "",
+        "image_url": "",
+        "building_area": 0.0,
+        "site_area": 0.0,
+        "land_area": 0.0,
+        "seats": 0,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_154": {
+        "name": "唐山市体育中心健身公园",
+        "type": "",
+        "operator": "",
+        "build_year": 0,
+        "address": "",
+        "subsidy_status": "",
+        "image_url": "",
+        "building_area": 0.0,
+        "site_area": 0.0,
+        "land_area": 0.0,
+        "seats": 0,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_155": {
+        "name": "",
+        "type": "",
+        "operator": "",
+        "build_year": 0,
+        "address": "",
+        "subsidy_status": "",
+        "image_url": "",
+        "building_area": 0.0,
+        "site_area": 0.0,
+        "land_area": 0.0,
+        "seats": 0,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_156": {
+        "name": "",
+        "type": "",
+        "operator": "",
+        "build_year": 0,
+        "address": "",
+        "subsidy_status": "",
+        "image_url": "",
+        "building_area": 0.0,
+        "site_area": 0.0,
+        "land_area": 0.0,
+        "seats": 0,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_157": {
+        "name": "",
+        "type": "",
+        "operator": "",
+        "build_year": 0,
+        "address": "",
+        "subsidy_status": "",
+        "image_url": "",
+        "building_area": 0.0,
+        "site_area": 0.0,
+        "land_area": 0.0,
+        "seats": 0,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      },
+      "Facility_158": {
+        "name": "",
+        "type": "",
+        "operator": "",
+        "build_year": 0,
+        "address": "",
+        "subsidy_status": "",
+        "image_url": "",
+        "building_area": 0.0,
+        "site_area": 0.0,
+        "land_area": 0.0,
+        "seats": 0,
+        "daily_visitors": 0,
+        "has_outdoor_fitness": false
+      }
+    },
+    "Sport": {
+      "Sport_网球": {
+        "name": "网球",
+        "category": "球类运动",
+        "type": "运动项目"
+      },
+      "Sport_广场舞": {
+        "name": "广场舞",
+        "category": "群众运动",
+        "type": "运动项目"
+      },
+      "Sport_跑步": {
+        "name": "跑步",
+        "category": "田径运动",
+        "type": "运动项目"
+      },
+      "Sport_篮球": {
+        "name": "篮球",
+        "category": "球类运动",
+        "type": "运动项目"
+      },
+      "Sport_游泳": {
+        "name": "游泳",
+        "category": "水上运动",
+        "type": "运动项目"
+      },
+      "Sport_足球": {
+        "name": "足球",
+        "category": "球类运动",
+        "type": "运动项目"
+      },
+      "Sport_乒乓球": {
+        "name": "乒乓球",
+        "category": "球类运动",
+        "type": "运动项目"
+      },
+      "Sport_太极拳": {
+        "name": "太极拳",
+        "category": "传统运动",
+        "type": "运动项目"
+      }
+    }
+  },
+  "relations": [
+    {
+      "subject": "Area_张家口市",
+      "predicate": "属于",
+      "object": "Area_河北省",
+      "properties": {}
+    },
+    {
+      "subject": "Area_邢台市",
+      "predicate": "属于",
+      "object": "Area_河北省",
+      "properties": {}
+    },
+    {
+      "subject": "Area_沧州市",
+      "predicate": "属于",
+      "object": "Area_河北省",
+      "properties": {}
+    },
+    {
+      "subject": "Area_衡水市",
+      "predicate": "属于",
+      "object": "Area_河北省",
+      "properties": {}
+    },
+    {
+      "subject": "Area_保定市",
+      "predicate": "属于",
+      "object": "Area_河北省",
+      "properties": {}
+    },
+    {
+      "subject": "Area_邯郸市",
+      "predicate": "属于",
+      "object": "Area_河北省",
+      "properties": {}
+    },
+    {
+      "subject": "Area_廊坊市",
+      "predicate": "属于",
+      "object": "Area_河北省",
+      "properties": {}
+    },
+    {
+      "subject": "Area_承德市",
+      "predicate": "属于",
+      "object": "Area_河北省",
+      "properties": {}
+    },
+    {
+      "subject": "Area_秦皇岛市",
+      "predicate": "属于",
+      "object": "Area_河北省",
+      "properties": {}
+    },
+    {
+      "subject": "Area_石家庄市",
+      "predicate": "属于",
+      "object": "Area_河北省",
+      "properties": {}
+    },
+    {
+      "subject": "Area_唐山市",
+      "predicate": "属于",
+      "object": "Area_河北省",
+      "properties": {}
+    },
+    {
+      "subject": "Area_唐山市",
+      "predicate": "具有指标",
+      "object": "IndicatorValue_唐山市_人均场地面积",
+      "properties": {}
+    },
+    {
+      "subject": "Area_石家庄市",
+      "predicate": "具有指标",
+      "object": "IndicatorValue_石家庄市_人均场地面积",
+      "properties": {}
+    },
+    {
+      "subject": "Area_邢台市",
+      "predicate": "具有指标",
+      "object": "IndicatorValue_邢台市_人均场地面积",
+      "properties": {}
+    },
+    {
+      "subject": "Area_张家口市",
+      "predicate": "具有指标",
+      "object": "IndicatorValue_张家口市_人均场地面积",
+      "properties": {}
+    },
+    {
+      "subject": "Area_承德市",
+      "predicate": "具有指标",
+      "object": "IndicatorValue_承德市_人均场地面积",
+      "properties": {}
+    },
+    {
+      "subject": "Area_沧州市",
+      "predicate": "具有指标",
+      "object": "IndicatorValue_沧州市_人均场地面积",
+      "properties": {}
+    },
+    {
+      "subject": "Area_廊坊市",
+      "predicate": "具有指标",
+      "object": "IndicatorValue_廊坊市_人均场地面积",
+      "properties": {}
+    },
+    {
+      "subject": "Area_保定市",
+      "predicate": "具有指标",
+      "object": "IndicatorValue_保定市_人均场地面积",
+      "properties": {}
+    },
+    {
+      "subject": "Area_衡水市",
+      "predicate": "具有指标",
+      "object": "IndicatorValue_衡水市_人均场地面积",
+      "properties": {}
+    },
+    {
+      "subject": "Area_邯郸市",
+      "predicate": "具有指标",
+      "object": "IndicatorValue_邯郸市_人均场地面积",
+      "properties": {}
+    },
+    {
+      "subject": "Area_秦皇岛市",
+      "predicate": "具有指标",
+      "object": "IndicatorValue_秦皇岛市_人均场地面积",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_1",
+      "predicate": "位于",
+      "object": "Area_唐山市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_1",
+      "predicate": "建成于",
+      "object": "Year_1991",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_1",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_1",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 26800.0
+      }
+    },
+    {
+      "subject": "Facility_2",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_2",
+      "predicate": "建成于",
+      "object": "Year_1986",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_2",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_2",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 21000.0
+      }
+    },
+    {
+      "subject": "Facility_3",
+      "predicate": "位于",
+      "object": "Area_邢台市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_3",
+      "predicate": "建成于",
+      "object": "Year_2018",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_3",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_3",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 22000.0
+      }
+    },
+    {
+      "subject": "Facility_4",
+      "predicate": "位于",
+      "object": "Area_张家口市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_4",
+      "predicate": "建成于",
+      "object": "Year_2023",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_4",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_4",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 24000.0
+      }
+    },
+    {
+      "subject": "Facility_5",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_5",
+      "predicate": "建成于",
+      "object": "Year_1984",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_5",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_5",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 36440.6
+      }
+    },
+    {
+      "subject": "Facility_6",
+      "predicate": "位于",
+      "object": "Area_承德市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_6",
+      "predicate": "建成于",
+      "object": "Year_2015",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_6",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_6",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 2360.0
+      }
+    },
+    {
+      "subject": "Facility_7",
+      "predicate": "位于",
+      "object": "Area_承德市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_7",
+      "predicate": "建成于",
+      "object": "Year_2005",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_7",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_7",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 28350.0
+      }
+    },
+    {
+      "subject": "Facility_8",
+      "predicate": "位于",
+      "object": "Area_唐山市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_8",
+      "predicate": "建成于",
+      "object": "Year_2016",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_8",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_8",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 38500.0
+      }
+    },
+    {
+      "subject": "Facility_9",
+      "predicate": "位于",
+      "object": "Area_张家口市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_9",
+      "predicate": "建成于",
+      "object": "Year_1992",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_9",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_9",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 33000.0
+      }
+    },
+    {
+      "subject": "Facility_10",
+      "predicate": "位于",
+      "object": "Area_邢台市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_10",
+      "predicate": "建成于",
+      "object": "Year_2015",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_10",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_10",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 2200.0
+      }
+    },
+    {
+      "subject": "Facility_11",
+      "predicate": "位于",
+      "object": "Area_承德市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_11",
+      "predicate": "建成于",
+      "object": "Year_2011",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_11",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_11",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 52200.0
+      }
+    },
+    {
+      "subject": "Facility_12",
+      "predicate": "位于",
+      "object": "Area_承德市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_12",
+      "predicate": "建成于",
+      "object": "Year_2000",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_12",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_12",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 5996.38
+      }
+    },
+    {
+      "subject": "Facility_13",
+      "predicate": "位于",
+      "object": "Area_唐山市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_13",
+      "predicate": "建成于",
+      "object": "Year_2019",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_13",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_13",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 21384.85
+      }
+    },
+    {
+      "subject": "Facility_14",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_14",
+      "predicate": "建成于",
+      "object": "Year_2012",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_14",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_14",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 1900.0
+      }
+    },
+    {
+      "subject": "Facility_15",
+      "predicate": "位于",
+      "object": "Area_沧州市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_15",
+      "predicate": "建成于",
+      "object": "Year_2013",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_15",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_15",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 3000.0
+      }
+    },
+    {
+      "subject": "Facility_16",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_16",
+      "predicate": "建成于",
+      "object": "Year_2017",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_16",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_16",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 79880.0
+      }
+    },
+    {
+      "subject": "Facility_17",
+      "predicate": "位于",
+      "object": "Area_廊坊市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_17",
+      "predicate": "建成于",
+      "object": "Year_2014",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_17",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_17",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 11151.0
+      }
+    },
+    {
+      "subject": "Facility_18",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_18",
+      "predicate": "建成于",
+      "object": "Year_1995",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_18",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_18",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 15600.0
+      }
+    },
+    {
+      "subject": "Facility_19",
+      "predicate": "位于",
+      "object": "Area_唐山市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_19",
+      "predicate": "建成于",
+      "object": "Year_2012",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_19",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_19",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 77593.5
+      }
+    },
+    {
+      "subject": "Facility_20",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_20",
+      "predicate": "建成于",
+      "object": "Year_2018",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_20",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_20",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 9725.0
+      }
+    },
+    {
+      "subject": "Facility_21",
+      "predicate": "位于",
+      "object": "Area_保定市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_21",
+      "predicate": "建成于",
+      "object": "Year_2022",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_21",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_21",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 2647.07
+      }
+    },
+    {
+      "subject": "Facility_22",
+      "predicate": "位于",
+      "object": "Area_保定市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_22",
+      "predicate": "建成于",
+      "object": "Year_2022",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_22",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_22",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 3240.76
+      }
+    },
+    {
+      "subject": "Facility_23",
+      "predicate": "位于",
+      "object": "Area_唐山市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_23",
+      "predicate": "建成于",
+      "object": "Year_1984",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_23",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_23",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 4200.0
+      }
+    },
+    {
+      "subject": "Facility_24",
+      "predicate": "位于",
+      "object": "Area_保定市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_24",
+      "predicate": "建成于",
+      "object": "Year_1992",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_24",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_24",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 1800.0
+      }
+    },
+    {
+      "subject": "Facility_25",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_25",
+      "predicate": "建成于",
+      "object": "Year_2018",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_25",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_25",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 9725.0
+      }
+    },
+    {
+      "subject": "Facility_26",
+      "predicate": "位于",
+      "object": "Area_唐山市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_26",
+      "predicate": "建成于",
+      "object": "Year_2019",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_26",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_26",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 27821.41
+      }
+    },
+    {
+      "subject": "Facility_27",
+      "predicate": "位于",
+      "object": "Area_廊坊市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_27",
+      "predicate": "建成于",
+      "object": "Year_2016",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_27",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_27",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 20258.0
+      }
+    },
+    {
+      "subject": "Facility_28",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_28",
+      "predicate": "建成于",
+      "object": "Year_1999",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_28",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_28",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 5500.0
+      }
+    },
+    {
+      "subject": "Facility_29",
+      "predicate": "位于",
+      "object": "Area_承德市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_29",
+      "predicate": "建成于",
+      "object": "Year_1998",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_29",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_29",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 3164.05
+      }
+    },
+    {
+      "subject": "Facility_30",
+      "predicate": "位于",
+      "object": "Area_衡水市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_30",
+      "predicate": "建成于",
+      "object": "Year_2023",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_30",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_30",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 12160.06
+      }
+    },
+    {
+      "subject": "Facility_31",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_31",
+      "predicate": "建成于",
+      "object": "Year_2023",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_31",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_31",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 9362.0
+      }
+    },
+    {
+      "subject": "Facility_32",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_32",
+      "predicate": "建成于",
+      "object": "Year_2018",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_32",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_32",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 5600.0
+      }
+    },
+    {
+      "subject": "Facility_33",
+      "predicate": "位于",
+      "object": "Area_邯郸市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_33",
+      "predicate": "建成于",
+      "object": "Year_1975",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_33",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_33",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 9250.0
+      }
+    },
+    {
+      "subject": "Facility_34",
+      "predicate": "位于",
+      "object": "Area_保定市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_34",
+      "predicate": "建成于",
+      "object": "Year_1990",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_34",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_34",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 25000.0
+      }
+    },
+    {
+      "subject": "Facility_35",
+      "predicate": "位于",
+      "object": "Area_秦皇岛市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_35",
+      "predicate": "建成于",
+      "object": "Year_2023",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_35",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_35",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 4000.0
+      }
+    },
+    {
+      "subject": "Facility_36",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_36",
+      "predicate": "建成于",
+      "object": "Year_2023",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_36",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_36",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 1900.0
+      }
+    },
+    {
+      "subject": "Facility_37",
+      "predicate": "位于",
+      "object": "Area_衡水市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_37",
+      "predicate": "建成于",
+      "object": "Year_2019",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_37",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_37",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 34000.0
+      }
+    },
+    {
+      "subject": "Facility_38",
+      "predicate": "位于",
+      "object": "Area_衡水市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_38",
+      "predicate": "建成于",
+      "object": "Year_2021",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_38",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_38",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 1500.0
+      }
+    },
+    {
+      "subject": "Facility_39",
+      "predicate": "位于",
+      "object": "Area_沧州市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_39",
+      "predicate": "建成于",
+      "object": "Year_2006",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_39",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_39",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 45300.0
+      }
+    },
+    {
+      "subject": "Facility_40",
+      "predicate": "位于",
+      "object": "Area_唐山市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_40",
+      "predicate": "建成于",
+      "object": "Year_1991",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_40",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_40",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 900.0
+      }
+    },
+    {
+      "subject": "Facility_41",
+      "predicate": "位于",
+      "object": "Area_秦皇岛市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_41",
+      "predicate": "建成于",
+      "object": "Year_2005",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_41",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_41",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 37850.0
+      }
+    },
+    {
+      "subject": "Facility_42",
+      "predicate": "位于",
+      "object": "Area_邯郸市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_42",
+      "predicate": "建成于",
+      "object": "Year_2023",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_42",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_42",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 31000.0
+      }
+    },
+    {
+      "subject": "Facility_43",
+      "predicate": "位于",
+      "object": "Area_秦皇岛市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_43",
+      "predicate": "建成于",
+      "object": "Year_2011",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_43",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_43",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 4500.0
+      }
+    },
+    {
+      "subject": "Facility_44",
+      "predicate": "位于",
+      "object": "Area_邯郸市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_44",
+      "predicate": "建成于",
+      "object": "Year_2012",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_44",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_44",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 28000.0
+      }
+    },
+    {
+      "subject": "Facility_45",
+      "predicate": "位于",
+      "object": "Area_邯郸市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_45",
+      "predicate": "建成于",
+      "object": "Year_2022",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_45",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_45",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 18006.0
+      }
+    },
+    {
+      "subject": "Facility_46",
+      "predicate": "位于",
+      "object": "Area_唐山市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_46",
+      "predicate": "建成于",
+      "object": "Year_2022",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_46",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_46",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 30420.0
+      }
+    },
+    {
+      "subject": "Facility_47",
+      "predicate": "位于",
+      "object": "Area_张家口市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_47",
+      "predicate": "建成于",
+      "object": "Year_2022",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_47",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_47",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 20385.2
+      }
+    },
+    {
+      "subject": "Facility_48",
+      "predicate": "位于",
+      "object": "Area_邯郸市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_48",
+      "predicate": "建成于",
+      "object": "Year_2020",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_48",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_48",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 310.0
+      }
+    },
+    {
+      "subject": "Facility_49",
+      "predicate": "位于",
+      "object": "Area_张家口市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_49",
+      "predicate": "建成于",
+      "object": "Year_1992",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_49",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_49",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 820.0
+      }
+    },
+    {
+      "subject": "Facility_50",
+      "predicate": "位于",
+      "object": "Area_沧州市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_50",
+      "predicate": "建成于",
+      "object": "Year_2019",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_50",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_50",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 25400.0
+      }
+    },
+    {
+      "subject": "Facility_51",
+      "predicate": "位于",
+      "object": "Area_张家口市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_51",
+      "predicate": "建成于",
+      "object": "Year_2011",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_51",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_51",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 3458.0
+      }
+    },
+    {
+      "subject": "Facility_52",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_52",
+      "predicate": "建成于",
+      "object": "Year_2017",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_52",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_52",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 8000.0
+      }
+    },
+    {
+      "subject": "Facility_53",
+      "predicate": "建成于",
+      "object": "Year_2021",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_53",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_53",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 2154.0
+      }
+    },
+    {
+      "subject": "Facility_54",
+      "predicate": "位于",
+      "object": "Area_唐山市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_54",
+      "predicate": "建成于",
+      "object": "Year_2005",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_54",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_54",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 2780.0
+      }
+    },
+    {
+      "subject": "Facility_55",
+      "predicate": "位于",
+      "object": "Area_廊坊市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_55",
+      "predicate": "建成于",
+      "object": "Year_2002",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_55",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_55",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 1244.0
+      }
+    },
+    {
+      "subject": "Facility_56",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_56",
+      "predicate": "建成于",
+      "object": "Year_1994",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_56",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_56",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 1500.0
+      }
+    },
+    {
+      "subject": "Facility_57",
+      "predicate": "位于",
+      "object": "Area_邯郸市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_57",
+      "predicate": "建成于",
+      "object": "Year_2012",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_57",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_57",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 20000.0
+      }
+    },
+    {
+      "subject": "Facility_58",
+      "predicate": "位于",
+      "object": "Area_邢台市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_58",
+      "predicate": "建成于",
+      "object": "Year_1991",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_58",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_58",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 8400.0
+      }
+    },
+    {
+      "subject": "Facility_59",
+      "predicate": "位于",
+      "object": "Area_唐山市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_59",
+      "predicate": "建成于",
+      "object": "Year_2020",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_59",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_59",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 3726.6
+      }
+    },
+    {
+      "subject": "Facility_60",
+      "predicate": "位于",
+      "object": "Area_承德市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_60",
+      "predicate": "建成于",
+      "object": "Year_2013",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_60",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_60",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 10000.0
+      }
+    },
+    {
+      "subject": "Facility_61",
+      "predicate": "位于",
+      "object": "Area_承德市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_61",
+      "predicate": "建成于",
+      "object": "Year_2007",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_61",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_61",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 5040.0
+      }
+    },
+    {
+      "subject": "Facility_62",
+      "predicate": "位于",
+      "object": "Area_邢台市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_62",
+      "predicate": "建成于",
+      "object": "Year_2020",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_62",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_62",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 3000.0
+      }
+    },
+    {
+      "subject": "Facility_63",
+      "predicate": "位于",
+      "object": "Area_保定市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_63",
+      "predicate": "建成于",
+      "object": "Year_1983",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_63",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_63",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 19720.0
+      }
+    },
+    {
+      "subject": "Facility_64",
+      "predicate": "位于",
+      "object": "Area_保定市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_64",
+      "predicate": "建成于",
+      "object": "Year_1974",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_64",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_64",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 23732.0
+      }
+    },
+    {
+      "subject": "Facility_65",
+      "predicate": "位于",
+      "object": "Area_承德市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_65",
+      "predicate": "建成于",
+      "object": "Year_2014",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_65",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_65",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 4000.0
+      }
+    },
+    {
+      "subject": "Facility_66",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_66",
+      "predicate": "建成于",
+      "object": "Year_2023",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_66",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_66",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 3100.0
+      }
+    },
+    {
+      "subject": "Facility_67",
+      "predicate": "位于",
+      "object": "Area_廊坊市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_67",
+      "predicate": "建成于",
+      "object": "Year_1999",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_67",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_67",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 11800.0
+      }
+    },
+    {
+      "subject": "Facility_68",
+      "predicate": "位于",
+      "object": "Area_唐山市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_68",
+      "predicate": "建成于",
+      "object": "Year_2019",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_68",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_68",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 88185.15
+      }
+    },
+    {
+      "subject": "Facility_69",
+      "predicate": "位于",
+      "object": "Area_邯郸市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_69",
+      "predicate": "建成于",
+      "object": "Year_2012",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_69",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_69",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 42000.0
+      }
+    },
+    {
+      "subject": "Facility_70",
+      "predicate": "位于",
+      "object": "Area_唐山市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_70",
+      "predicate": "建成于",
+      "object": "Year_1995",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_70",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_70",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 3800.0
+      }
+    },
+    {
+      "subject": "Facility_71",
+      "predicate": "位于",
+      "object": "Area_张家口市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_71",
+      "predicate": "建成于",
+      "object": "Year_2022",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_71",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_71",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 3268.0
+      }
+    },
+    {
+      "subject": "Facility_72",
+      "predicate": "位于",
+      "object": "Area_邢台市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_72",
+      "predicate": "建成于",
+      "object": "Year_2016",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_72",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_72",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 1300.0
+      }
+    },
+    {
+      "subject": "Facility_73",
+      "predicate": "位于",
+      "object": "Area_承德市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_73",
+      "predicate": "建成于",
+      "object": "Year_2020",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_73",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_73",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 5800.0
+      }
+    },
+    {
+      "subject": "Facility_74",
+      "predicate": "位于",
+      "object": "Area_承德市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_74",
+      "predicate": "建成于",
+      "object": "Year_2012",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_74",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_74",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 46991.68
+      }
+    },
+    {
+      "subject": "Facility_75",
+      "predicate": "位于",
+      "object": "Area_邢台市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_75",
+      "predicate": "建成于",
+      "object": "Year_2014",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_75",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_75",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 13333.0
+      }
+    },
+    {
+      "subject": "Facility_76",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_76",
+      "predicate": "建成于",
+      "object": "Year_2019",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_76",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_76",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 11500.0
+      }
+    },
+    {
+      "subject": "Facility_77",
+      "predicate": "位于",
+      "object": "Area_唐山市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_77",
+      "predicate": "建成于",
+      "object": "Year_2012",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_77",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_77",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 18907.2
+      }
+    },
+    {
+      "subject": "Facility_78",
+      "predicate": "位于",
+      "object": "Area_衡水市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_78",
+      "predicate": "建成于",
+      "object": "Year_1999",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_78",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_78",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 12500.0
+      }
+    },
+    {
+      "subject": "Facility_79",
+      "predicate": "位于",
+      "object": "Area_张家口市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_79",
+      "predicate": "建成于",
+      "object": "Year_2020",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_79",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_79",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 1964.0
+      }
+    },
+    {
+      "subject": "Facility_80",
+      "predicate": "位于",
+      "object": "Area_衡水市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_80",
+      "predicate": "建成于",
+      "object": "Year_2020",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_80",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_80",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 2500.0
+      }
+    },
+    {
+      "subject": "Facility_81",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_81",
+      "predicate": "建成于",
+      "object": "Year_2020",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_81",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_81",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 1800.0
+      }
+    },
+    {
+      "subject": "Facility_82",
+      "predicate": "位于",
+      "object": "Area_邯郸市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_82",
+      "predicate": "建成于",
+      "object": "Year_2012",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_82",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_82",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 11000.0
+      }
+    },
+    {
+      "subject": "Facility_83",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_83",
+      "predicate": "建成于",
+      "object": "Year_1995",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_83",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_83",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 840.0
+      }
+    },
+    {
+      "subject": "Facility_84",
+      "predicate": "位于",
+      "object": "Area_邢台市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_84",
+      "predicate": "建成于",
+      "object": "Year_2017",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_84",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_84",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 1800.0
+      }
+    },
+    {
+      "subject": "Facility_85",
+      "predicate": "位于",
+      "object": "Area_保定市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_85",
+      "predicate": "建成于",
+      "object": "Year_2022",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_85",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_85",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 5500.0
+      }
+    },
+    {
+      "subject": "Facility_86",
+      "predicate": "建成于",
+      "object": "Year_2002",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_86",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_86",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 2000.0
+      }
+    },
+    {
+      "subject": "Facility_87",
+      "predicate": "位于",
+      "object": "Area_张家口市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_87",
+      "predicate": "建成于",
+      "object": "Year_2012",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_87",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_87",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 2700.0
+      }
+    },
+    {
+      "subject": "Facility_88",
+      "predicate": "位于",
+      "object": "Area_承德市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_88",
+      "predicate": "建成于",
+      "object": "Year_2011",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_88",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_88",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 21600.0
+      }
+    },
+    {
+      "subject": "Facility_89",
+      "predicate": "位于",
+      "object": "Area_廊坊市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_89",
+      "predicate": "建成于",
+      "object": "Year_2016",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_89",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_89",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 28000.0
+      }
+    },
+    {
+      "subject": "Facility_90",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_90",
+      "predicate": "建成于",
+      "object": "Year_2020",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_90",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_90",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 3264.0
+      }
+    },
+    {
+      "subject": "Facility_91",
+      "predicate": "位于",
+      "object": "Area_邯郸市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_91",
+      "predicate": "建成于",
+      "object": "Year_2012",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_91",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_91",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 18000.0
+      }
+    },
+    {
+      "subject": "Facility_92",
+      "predicate": "位于",
+      "object": "Area_保定市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_92",
+      "predicate": "建成于",
+      "object": "Year_2005",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_92",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_92",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 4700.0
+      }
+    },
+    {
+      "subject": "Facility_93",
+      "predicate": "位于",
+      "object": "Area_廊坊市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_93",
+      "predicate": "建成于",
+      "object": "Year_2020",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_93",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_93",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 4200.0
+      }
+    },
+    {
+      "subject": "Facility_94",
+      "predicate": "位于",
+      "object": "Area_衡水市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_94",
+      "predicate": "建成于",
+      "object": "Year_1995",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_94",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_94",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 8317.0
+      }
+    },
+    {
+      "subject": "Facility_95",
+      "predicate": "位于",
+      "object": "Area_邢台市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_95",
+      "predicate": "建成于",
+      "object": "Year_2011",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_95",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_95",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 1050.0
+      }
+    },
+    {
+      "subject": "Facility_96",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_96",
+      "predicate": "建成于",
+      "object": "Year_2016",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_96",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_96",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 8000.0
+      }
+    },
+    {
+      "subject": "Facility_97",
+      "predicate": "位于",
+      "object": "Area_邯郸市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_97",
+      "predicate": "建成于",
+      "object": "Year_2023",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_97",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_97",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 133933.0
+      }
+    },
+    {
+      "subject": "Facility_98",
+      "predicate": "位于",
+      "object": "Area_唐山市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_98",
+      "predicate": "建成于",
+      "object": "Year_2002",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_98",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_98",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 3875.0
+      }
+    },
+    {
+      "subject": "Facility_99",
+      "predicate": "位于",
+      "object": "Area_廊坊市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_99",
+      "predicate": "建成于",
+      "object": "Year_2020",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_99",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_99",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 2632.0
+      }
+    },
+    {
+      "subject": "Facility_100",
+      "predicate": "位于",
+      "object": "Area_承德市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_100",
+      "predicate": "建成于",
+      "object": "Year_2021",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_100",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_100",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 14200.0
+      }
+    },
+    {
+      "subject": "Facility_101",
+      "predicate": "位于",
+      "object": "Area_衡水市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_101",
+      "predicate": "建成于",
+      "object": "Year_2021",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_101",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_101",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 18000.0
+      }
+    },
+    {
+      "subject": "Facility_102",
+      "predicate": "位于",
+      "object": "Area_衡水市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_102",
+      "predicate": "建成于",
+      "object": "Year_2013",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_102",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_102",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 7600.0
+      }
+    },
+    {
+      "subject": "Facility_103",
+      "predicate": "位于",
+      "object": "Area_沧州市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_103",
+      "predicate": "建成于",
+      "object": "Year_2009",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_103",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_103",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 1600.0
+      }
+    },
+    {
+      "subject": "Facility_104",
+      "predicate": "位于",
+      "object": "Area_唐山市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_104",
+      "predicate": "建成于",
+      "object": "Year_1982",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_104",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_104",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 1060.5
+      }
+    },
+    {
+      "subject": "Facility_105",
+      "predicate": "位于",
+      "object": "Area_保定市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_105",
+      "predicate": "建成于",
+      "object": "Year_1990",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_105",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_105",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 5000.0
+      }
+    },
+    {
+      "subject": "Facility_106",
+      "predicate": "位于",
+      "object": "Area_唐山市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_106",
+      "predicate": "建成于",
+      "object": "Year_1992",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_106",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_106",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 2550.0
+      }
+    },
+    {
+      "subject": "Facility_107",
+      "predicate": "位于",
+      "object": "Area_唐山市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_107",
+      "predicate": "建成于",
+      "object": "Year_2020",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_107",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_107",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 800.0
+      }
+    },
+    {
+      "subject": "Facility_108",
+      "predicate": "位于",
+      "object": "Area_保定市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_108",
+      "predicate": "建成于",
+      "object": "Year_2010",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_108",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_108",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 2800.0
+      }
+    },
+    {
+      "subject": "Facility_109",
+      "predicate": "位于",
+      "object": "Area_沧州市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_109",
+      "predicate": "建成于",
+      "object": "Year_2020",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_109",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_109",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 995.4
+      }
+    },
+    {
+      "subject": "Facility_110",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_110",
+      "predicate": "建成于",
+      "object": "Year_2018",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_110",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_110",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 7300.0
+      }
+    },
+    {
+      "subject": "Facility_111",
+      "predicate": "位于",
+      "object": "Area_沧州市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_111",
+      "predicate": "建成于",
+      "object": "Year_2020",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_111",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_111",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 5400.0
+      }
+    },
+    {
+      "subject": "Facility_112",
+      "predicate": "位于",
+      "object": "Area_秦皇岛市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_112",
+      "predicate": "建成于",
+      "object": "Year_2013",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_112",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_112",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 16918.0
+      }
+    },
+    {
+      "subject": "Facility_113",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_113",
+      "predicate": "建成于",
+      "object": "Year_2023",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_113",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_113",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 17649.0
+      }
+    },
+    {
+      "subject": "Facility_114",
+      "predicate": "位于",
+      "object": "Area_唐山市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_114",
+      "predicate": "建成于",
+      "object": "Year_2013",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_114",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_114",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 16918.0
+      }
+    },
+    {
+      "subject": "Facility_115",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_115",
+      "predicate": "建成于",
+      "object": "Year_2023",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_115",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_115",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 500.0
+      }
+    },
+    {
+      "subject": "Facility_116",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_116",
+      "predicate": "建成于",
+      "object": "Year_2020",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_116",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_116",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 4768.05
+      }
+    },
+    {
+      "subject": "Facility_117",
+      "predicate": "位于",
+      "object": "Area_廊坊市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_117",
+      "predicate": "建成于",
+      "object": "Year_2021",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_117",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_117",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 10008.04
+      }
+    },
+    {
+      "subject": "Facility_118",
+      "predicate": "位于",
+      "object": "Area_秦皇岛市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_118",
+      "predicate": "建成于",
+      "object": "Year_2009",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_118",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_118",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 1902.0
+      }
+    },
+    {
+      "subject": "Facility_119",
+      "predicate": "位于",
+      "object": "Area_邢台市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_119",
+      "predicate": "建成于",
+      "object": "Year_2019",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_119",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_119",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 13000.0
+      }
+    },
+    {
+      "subject": "Facility_120",
+      "predicate": "位于",
+      "object": "Area_邯郸市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_120",
+      "predicate": "建成于",
+      "object": "Year_2012",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_120",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_120",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 19000.0
+      }
+    },
+    {
+      "subject": "Facility_121",
+      "predicate": "位于",
+      "object": "Area_廊坊市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_121",
+      "predicate": "建成于",
+      "object": "Year_2009",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_121",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_121",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 8430.0
+      }
+    },
+    {
+      "subject": "Facility_122",
+      "predicate": "位于",
+      "object": "Area_沧州市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_122",
+      "predicate": "建成于",
+      "object": "Year_1991",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_122",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_122",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 2765.0
+      }
+    },
+    {
+      "subject": "Facility_123",
+      "predicate": "位于",
+      "object": "Area_沧州市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_123",
+      "predicate": "建成于",
+      "object": "Year_2014",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_123",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_123",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 30138.7
+      }
+    },
+    {
+      "subject": "Facility_124",
+      "predicate": "位于",
+      "object": "Area_承德市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_124",
+      "predicate": "建成于",
+      "object": "Year_2020",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_124",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_124",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 5000.0
+      }
+    },
+    {
+      "subject": "Facility_125",
+      "predicate": "位于",
+      "object": "Area_张家口市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_125",
+      "predicate": "建成于",
+      "object": "Year_2021",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_125",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_125",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 3000.0
+      }
+    },
+    {
+      "subject": "Facility_126",
+      "predicate": "位于",
+      "object": "Area_张家口市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_126",
+      "predicate": "建成于",
+      "object": "Year_2016",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_126",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_126",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 3170.0
+      }
+    },
+    {
+      "subject": "Facility_127",
+      "predicate": "建成于",
+      "object": "Year_2015",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_127",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_127",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 10200.0
+      }
+    },
+    {
+      "subject": "Facility_128",
+      "predicate": "位于",
+      "object": "Area_保定市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_128",
+      "predicate": "建成于",
+      "object": "Year_1988",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_128",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_128",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 13159.0
+      }
+    },
+    {
+      "subject": "Facility_129",
+      "predicate": "位于",
+      "object": "Area_邢台市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_129",
+      "predicate": "建成于",
+      "object": "Year_2020",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_129",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_129",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 600.0
+      }
+    },
+    {
+      "subject": "Facility_130",
+      "predicate": "位于",
+      "object": "Area_邢台市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_130",
+      "predicate": "建成于",
+      "object": "Year_2019",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_130",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_130",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 4100.0
+      }
+    },
+    {
+      "subject": "Facility_131",
+      "predicate": "位于",
+      "object": "Area_邢台市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_131",
+      "predicate": "建成于",
+      "object": "Year_2020",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_131",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_131",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 10530.0
+      }
+    },
+    {
+      "subject": "Facility_132",
+      "predicate": "位于",
+      "object": "Area_唐山市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_132",
+      "predicate": "建成于",
+      "object": "Year_2012",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_132",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_132",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 19778.0
+      }
+    },
+    {
+      "subject": "Facility_133",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_133",
+      "predicate": "建成于",
+      "object": "Year_1990",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_133",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_133",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 3777.14
+      }
+    },
+    {
+      "subject": "Facility_134",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_134",
+      "predicate": "建成于",
+      "object": "Year_2022",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_134",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_134",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 6700.0
+      }
+    },
+    {
+      "subject": "Facility_135",
+      "predicate": "位于",
+      "object": "Area_邢台市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_135",
+      "predicate": "建成于",
+      "object": "Year_2020",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_135",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_135",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 300.0
+      }
+    },
+    {
+      "subject": "Facility_136",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_136",
+      "predicate": "建成于",
+      "object": "Year_2021",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_136",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_136",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 800.0
+      }
+    },
+    {
+      "subject": "Facility_137",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_137",
+      "predicate": "建成于",
+      "object": "Year_2006",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_137",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_137",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 1800.0
+      }
+    },
+    {
+      "subject": "Facility_138",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_138",
+      "predicate": "建成于",
+      "object": "Year_2022",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_138",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_138",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 7375.38
+      }
+    },
+    {
+      "subject": "Facility_139",
+      "predicate": "位于",
+      "object": "Area_邯郸市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_139",
+      "predicate": "建成于",
+      "object": "Year_2004",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_139",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_139",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 22038.0
+      }
+    },
+    {
+      "subject": "Facility_140",
+      "predicate": "位于",
+      "object": "Area_邯郸市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_140",
+      "predicate": "建成于",
+      "object": "Year_2020",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_140",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_140",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 12242.0
+      }
+    },
+    {
+      "subject": "Facility_141",
+      "predicate": "位于",
+      "object": "Area_廊坊市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_141",
+      "predicate": "建成于",
+      "object": "Year_2010",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_141",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_141",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 112462.83
+      }
+    },
+    {
+      "subject": "Facility_142",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_142",
+      "predicate": "建成于",
+      "object": "Year_2021",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_142",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_142",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 2166.08
+      }
+    },
+    {
+      "subject": "Facility_143",
+      "predicate": "位于",
+      "object": "Area_唐山市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_143",
+      "predicate": "建成于",
+      "object": "Year_1995",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_143",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_143",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 2800.0
+      }
+    },
+    {
+      "subject": "Facility_144",
+      "predicate": "位于",
+      "object": "Area_邢台市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_144",
+      "predicate": "建成于",
+      "object": "Year_2022",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_144",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_144",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 1500.0
+      }
+    },
+    {
+      "subject": "Facility_145",
+      "predicate": "位于",
+      "object": "Area_保定市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_145",
+      "predicate": "建成于",
+      "object": "Year_2002",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_145",
+      "predicate": "受益于",
+      "object": "Law_体育场馆补助政策",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_145",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 7000.0
+      }
+    },
+    {
+      "subject": "Facility_146",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_146",
+      "predicate": "建成于",
+      "object": "Year_2024",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_146",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 5500.0
+      }
+    },
+    {
+      "subject": "Facility_147",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_147",
+      "predicate": "建成于",
+      "object": "Year_2024",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_147",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 2500.0
+      }
+    },
+    {
+      "subject": "Facility_148",
+      "predicate": "位于",
+      "object": "Area_保定市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_148",
+      "predicate": "建成于",
+      "object": "Year_2020",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_148",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 1000.0
+      }
+    },
+    {
+      "subject": "Facility_149",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_149",
+      "predicate": "建成于",
+      "object": "Year_2022",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_149",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 1500.0
+      }
+    },
+    {
+      "subject": "Facility_150",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_150",
+      "predicate": "建成于",
+      "object": "Year_2022",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_150",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 1350.0
+      }
+    },
+    {
+      "subject": "Facility_151",
+      "predicate": "位于",
+      "object": "Area_石家庄市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_151",
+      "predicate": "建成于",
+      "object": "Year_2022",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_151",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 1000.0
+      }
+    },
+    {
+      "subject": "Facility_152",
+      "predicate": "位于",
+      "object": "Area_秦皇岛市",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_152",
+      "predicate": "建成于",
+      "object": "Year_2015",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_152",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 845.0
+      }
+    },
+    {
+      "subject": "Facility_153",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 0.0
+      }
+    },
+    {
+      "subject": "Facility_154",
+      "predicate": "提供",
+      "object": "Sport_足球",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_154",
+      "predicate": "提供",
+      "object": "Sport_篮球",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_154",
+      "predicate": "提供",
+      "object": "Sport_乒乓球",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_154",
+      "predicate": "提供",
+      "object": "Sport_网球",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_154",
+      "predicate": "提供",
+      "object": "Sport_游泳",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_154",
+      "predicate": "提供",
+      "object": "Sport_跑步",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_154",
+      "predicate": "提供",
+      "object": "Sport_太极拳",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_154",
+      "predicate": "提供",
+      "object": "Sport_广场舞",
+      "properties": {}
+    },
+    {
+      "subject": "Facility_154",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 0.0
+      }
+    },
+    {
+      "subject": "Facility_155",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 0.0
+      }
+    },
+    {
+      "subject": "Facility_156",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 0.0
+      }
+    },
+    {
+      "subject": "Facility_157",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 0.0
+      }
+    },
+    {
+      "subject": "Facility_158",
+      "predicate": "符合指标",
+      "object": "Indicator_场地面积",
+      "properties": {
+        "value": 0.0
+      }
+    }
+  ],
+  "statistics": {
+    "entities": {
+      "Time": 41,
+      "Area": 24,
+      "Law": 3,
+      "Indicator": 20,
+      "Person": 0,
+      "Facility": 158,
+      "Sport": 8
+    },
+    "total_entities": 254,
+    "total_relations": 634,
+    "relation_types": 7
+  }
+}

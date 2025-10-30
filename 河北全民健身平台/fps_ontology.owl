@@ -1,0 +1,338 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.fps-hebei.org/ontology#"
+     xml:base="http://www.fps-hebei.org/ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+    <owl:Ontology rdf:about="http://www.fps-hebei.org/ontology">
+        <rdfs:label>河北省全民健身公共服务知识图谱</rdfs:label>
+        <rdfs:comment>基于LKDF框架的FPS领域本体</rdfs:comment>
+    </owl:Ontology>
+
+    <!-- 实体类定义 -->
+    <owl:Class rdf:about="#Time">
+        <rdfs:label>Time</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Area">
+        <rdfs:label>Area</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Law">
+        <rdfs:label>Law</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Indicator">
+        <rdfs:label>Indicator</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Person">
+        <rdfs:label>Person</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Facility">
+        <rdfs:label>Facility</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Sport">
+        <rdfs:label>Sport</rdfs:label>
+    </owl:Class>
+
+    <!-- 对象属性定义 -->
+    <owl:ObjectProperty rdf:about="#属于">
+        <rdfs:label>属于</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#建成于">
+        <rdfs:label>建成于</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#提供">
+        <rdfs:label>提供</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#位于">
+        <rdfs:label>位于</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#受益于">
+        <rdfs:label>受益于</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#具有指标">
+        <rdfs:label>具有指标</rdfs:label>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#符合指标">
+        <rdfs:label>符合指标</rdfs:label>
+    </owl:ObjectProperty>
+
+    <!-- 实例定义（部分示例） -->
+    <Time rdf:about="#Year_1974">
+        <rdfs:label>Year_1974</rdfs:label>
+        <year>1974</year>
+        <type>年份</type>
+        <decade>1970年代</decade>
+    </Time>
+
+    <Time rdf:about="#Year_1975">
+        <rdfs:label>Year_1975</rdfs:label>
+        <year>1975</year>
+        <type>年份</type>
+        <decade>1970年代</decade>
+    </Time>
+
+    <Time rdf:about="#Year_1982">
+        <rdfs:label>Year_1982</rdfs:label>
+        <year>1982</year>
+        <type>年份</type>
+        <decade>1980年代</decade>
+    </Time>
+
+    <Time rdf:about="#Year_1983">
+        <rdfs:label>Year_1983</rdfs:label>
+        <year>1983</year>
+        <type>年份</type>
+        <decade>1980年代</decade>
+    </Time>
+
+    <Time rdf:about="#Year_1984">
+        <rdfs:label>Year_1984</rdfs:label>
+        <year>1984</year>
+        <type>年份</type>
+        <decade>1980年代</decade>
+    </Time>
+
+    <Area rdf:about="#Area_河北省">
+        <rdfs:label>Area_河北省</rdfs:label>
+        <name>河北省</name>
+        <level>省级</level>
+        <type>行政区域</type>
+    </Area>
+
+    <Area rdf:about="#Area_张家口市">
+        <rdfs:label>Area_张家口市</rdfs:label>
+        <name>张家口市</name>
+        <level>市级</level>
+        <province>河北省</province>
+        <type>行政区域</type>
+    </Area>
+
+    <Area rdf:about="#Area_邢台市">
+        <rdfs:label>Area_邢台市</rdfs:label>
+        <name>邢台市</name>
+        <level>市级</level>
+        <province>河北省</province>
+        <type>行政区域</type>
+    </Area>
+
+    <Area rdf:about="#Area_沧州市">
+        <rdfs:label>Area_沧州市</rdfs:label>
+        <name>沧州市</name>
+        <level>市级</level>
+        <province>河北省</province>
+        <type>行政区域</type>
+    </Area>
+
+    <Area rdf:about="#Area_衡水市">
+        <rdfs:label>Area_衡水市</rdfs:label>
+        <name>衡水市</name>
+        <level>市级</level>
+        <province>河北省</province>
+        <type>行政区域</type>
+    </Area>
+
+    <Law rdf:about="#Law_全民健身计划">
+        <rdfs:label>Law_全民健身计划</rdfs:label>
+        <id>Law_全民健身计划</id>
+        <title>全民健身计划（2021-2025年）</title>
+        <level>国家级</level>
+        <department>国务院</department>
+        <publish_year>2021</publish_year>
+        <type>规划</type>
+    </Law>
+
+    <Law rdf:about="#Law_河北省全民健身条例">
+        <rdfs:label>Law_河北省全民健身条例</rdfs:label>
+        <id>Law_河北省全民健身条例</id>
+        <title>河北省全民健身条例</title>
+        <level>省级</level>
+        <department>河北省人大</department>
+        <publish_year>2020</publish_year>
+        <type>法规</type>
+    </Law>
+
+    <Law rdf:about="#Law_体育场馆补助政策">
+        <rdfs:label>Law_体育场馆补助政策</rdfs:label>
+        <id>Law_体育场馆补助政策</id>
+        <title>公共体育场馆向社会免费或低收费开放补助资金管理办法</title>
+        <level>国家级</level>
+        <department>财政部、体育总局</department>
+        <publish_year>2014</publish_year>
+        <type>管理办法</type>
+    </Law>
+
+    <Indicator rdf:about="#Indicator_场地面积">
+        <rdfs:label>Indicator_场地面积</rdfs:label>
+        <id>Indicator_场地面积</id>
+        <name>场地面积</name>
+        <unit>平方米</unit>
+        <category>设施指标</category>
+    </Indicator>
+
+    <Indicator rdf:about="#Indicator_建筑面积">
+        <rdfs:label>Indicator_建筑面积</rdfs:label>
+        <id>Indicator_建筑面积</id>
+        <name>建筑面积</name>
+        <unit>平方米</unit>
+        <category>设施指标</category>
+    </Indicator>
+
+    <Indicator rdf:about="#Indicator_用地面积">
+        <rdfs:label>Indicator_用地面积</rdfs:label>
+        <id>Indicator_用地面积</id>
+        <name>用地面积</name>
+        <unit>平方米</unit>
+        <category>设施指标</category>
+    </Indicator>
+
+    <Indicator rdf:about="#Indicator_座位数">
+        <rdfs:label>Indicator_座位数</rdfs:label>
+        <id>Indicator_座位数</id>
+        <name>座位数</name>
+        <unit>座</unit>
+        <category>设施指标</category>
+    </Indicator>
+
+    <Indicator rdf:about="#Indicator_日客流量">
+        <rdfs:label>Indicator_日客流量</rdfs:label>
+        <id>Indicator_日客流量</id>
+        <name>日客流量</name>
+        <unit>人次</unit>
+        <category>使用指标</category>
+    </Indicator>
+
+    <Facility rdf:about="#Facility_1">
+        <rdfs:label>Facility_1</rdfs:label>
+        <name>滦州市体育场</name>
+        <type>体育场</type>
+        <operator>滦州市文化广电和旅游局</operator>
+        <build_year>1991</build_year>
+        <address>地址：河北省唐山市滦县滦街道安康北路9号</address>
+        <subsidy_status>2025年享受补助</subsidy_status>
+        <image_url>https://js365.org.cn/oss/js365/upload/2021/06/07/3638edbe-7bed-4543-b156-15df9e9864a1.jpg</image_url>
+        <building_area>3500.0</building_area>
+        <site_area>26800.0</site_area>
+        <land_area>36800.0</land_area>
+        <seats>448</seats>
+        <daily_visitors>4399</daily_visitors>
+        <has_outdoor_fitness>False</has_outdoor_fitness>
+    </Facility>
+
+    <Facility rdf:about="#Facility_2">
+        <rdfs:label>Facility_2</rdfs:label>
+        <name>井陉县体育场</name>
+        <type>体育场</type>
+        <operator>井陉县体育场</operator>
+        <build_year>1986</build_year>
+        <address>地址：河北省石家庄市井陉县微水乡乡镇河边西路28号</address>
+        <subsidy_status>2025年享受补助</subsidy_status>
+        <image_url>https://js365.org.cn/oss/js365/js365/upload/20220628/81c9e8c69cea48dab03cfb0592c131ca.jpg</image_url>
+        <building_area>534.0</building_area>
+        <site_area>21000.0</site_area>
+        <land_area>25303.0</land_area>
+        <seats>5</seats>
+        <daily_visitors>3521</daily_visitors>
+        <has_outdoor_fitness>False</has_outdoor_fitness>
+    </Facility>
+
+    <Facility rdf:about="#Facility_3">
+        <rdfs:label>Facility_3</rdfs:label>
+        <name>柏乡县体育场</name>
+        <type>体育场</type>
+        <operator>柏乡县教育文化广电体育和旅游局</operator>
+        <build_year>2018</build_year>
+        <address>地址：河北省邢台市柏乡县柏乡镇迎宾路105号</address>
+        <subsidy_status>2025年享受补助</subsidy_status>
+        <image_url>https://js365.org.cn/oss/js365/upload/2021/07/22/59780811-6e29-45d6-9f70-6936beb07774.jpg</image_url>
+        <building_area>100.0</building_area>
+        <site_area>22000.0</site_area>
+        <land_area>22100.0</land_area>
+        <seats>500</seats>
+        <daily_visitors>3192</daily_visitors>
+        <has_outdoor_fitness>False</has_outdoor_fitness>
+    </Facility>
+
+    <Facility rdf:about="#Facility_4">
+        <rdfs:label>Facility_4</rdfs:label>
+        <name>下花园体育场</name>
+        <type>体育场</type>
+        <operator>下花园区教育和体育局</operator>
+        <build_year>2023</build_year>
+        <address>地址：河北省张家口市下花园区城镇街道街道中学西街街2号</address>
+        <subsidy_status>2025年享受补助</subsidy_status>
+        <image_url>https://www.js365.org.cn/oss/js365/upload/20240712/bef77d7af36d47969257b87730391967.jpg</image_url>
+        <building_area>3000.0</building_area>
+        <site_area>24000.0</site_area>
+        <land_area>27000.0</land_area>
+        <seats>6600</seats>
+        <daily_visitors>1493</daily_visitors>
+        <has_outdoor_fitness>False</has_outdoor_fitness>
+    </Facility>
+
+    <Facility rdf:about="#Facility_5">
+        <rdfs:label>Facility_5</rdfs:label>
+        <name>河北体育馆</name>
+        <type>体育馆</type>
+        <operator>河北体育馆</operator>
+        <build_year>1984</build_year>
+        <address>地址：河北省石家庄市长安区广安街道中山东路338号</address>
+        <subsidy_status>2025年享受补助</subsidy_status>
+        <image_url>https://js365.org.cn/oss/js365/upload/2021/10/12/f5de89a3-a29d-44ca-8e62-677e82c5b6fe.jpg</image_url>
+        <building_area>19963.0</building_area>
+        <site_area>36440.6</site_area>
+        <land_area>78946.2</land_area>
+        <seats>10000</seats>
+        <daily_visitors>1326</daily_visitors>
+        <has_outdoor_fitness>False</has_outdoor_fitness>
+    </Facility>
+
+    <Sport rdf:about="#Sport_网球">
+        <rdfs:label>Sport_网球</rdfs:label>
+        <name>网球</name>
+        <category>球类运动</category>
+        <type>运动项目</type>
+    </Sport>
+
+    <Sport rdf:about="#Sport_广场舞">
+        <rdfs:label>Sport_广场舞</rdfs:label>
+        <name>广场舞</name>
+        <category>群众运动</category>
+        <type>运动项目</type>
+    </Sport>
+
+    <Sport rdf:about="#Sport_跑步">
+        <rdfs:label>Sport_跑步</rdfs:label>
+        <name>跑步</name>
+        <category>田径运动</category>
+        <type>运动项目</type>
+    </Sport>
+
+    <Sport rdf:about="#Sport_篮球">
+        <rdfs:label>Sport_篮球</rdfs:label>
+        <name>篮球</name>
+        <category>球类运动</category>
+        <type>运动项目</type>
+    </Sport>
+
+    <Sport rdf:about="#Sport_游泳">
+        <rdfs:label>Sport_游泳</rdfs:label>
+        <name>游泳</name>
+        <category>水上运动</category>
+        <type>运动项目</type>
+    </Sport>
+
+</rdf:RDF>

@@ -1,0 +1,77 @@
+{
+  "name": "河北省全民健身公共服务知识图谱",
+  "created_at": "2025-10-30 14:45:09",
+  "dimensions": [
+    "时间(T)",
+    "区域(A)",
+    "政策法规(L)",
+    "指标(I)",
+    "个人(P)",
+    "设施(F)",
+    "运动项目(S)"
+  ],
+  "statistics": {
+    "entities": {
+      "Time": 41,
+      "Area": 24,
+      "Law": 3,
+      "Indicator": 20,
+      "Person": 0,
+      "Facility": 158,
+      "Sport": 8
+    },
+    "total_entities": 254,
+    "total_relations": 634,
+    "relation_types": 7
+  },
+  "top_cities": [
+    {
+      "city": "石家庄市",
+      "count": 34
+    },
+    {
+      "city": "唐山市",
+      "count": 20
+    },
+    {
+      "city": "邢台市",
+      "count": 14
+    },
+    {
+      "city": "承德市",
+      "count": 13
+    },
+    {
+      "city": "保定市",
+      "count": 13
+    },
+    {
+      "city": "邯郸市",
+      "count": 13
+    },
+    {
+      "city": "张家口市",
+      "count": 10
+    },
+    {
+      "city": "廊坊市",
+      "count": 10
+    },
+    {
+      "city": "沧州市",
+      "count": 8
+    },
+    {
+      "city": "衡水市",
+      "count": 8
+    }
+  ],
+  "facility_types": {
+    "体育场": 32,
+    "体育馆": 60,
+    "健身中心": 40,
+    "公共游泳(跳水)": 11,
+    "": 15
+  },
+  "time_periods": {}
+}
